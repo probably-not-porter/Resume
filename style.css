@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa|Indie+Flower');
+body{
+    background-color: darkgray;
+}
+h1 {
+    font-family: 'Indie Flower', cursive;
+    font-size: 40px;
+    color: #222;
+    margin-left: 150px; 
+}
+#head{
+    width: 500px;
+    background-image: url("bg1.jpg");
+    margin: auto;
+    padding: 20px;
+    border-radius: 8px;
+}
+.navButton{
+    font-family: 'Comfortaa', cursive;
+    font-size: 15px;
+    padding: 10px;
+    width: 100px;
+    background-color: #83967b;
+    border: 1px solid black;
+    border-radius: 3px;
+    transition-duration: 200ms;
+    margin-left: 20px;
+}
+.navButton:hover {
+    background-color: #ccc;
+}
