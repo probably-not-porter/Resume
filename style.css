@@ -8,12 +8,24 @@ h1 {
     color: #222;
     margin-left: 150px; 
 }
+h2 {
+    font-family: 'Indie Flower', cursive;
+    text-align: center;
+}
+p1 {
+    font-family: 'Comfortaa', cursive;
+    font-size: 14px;
+}
 #head{
     width: 500px;
     background-image: url("bg1.jpg");
     margin: auto;
     padding: 20px;
     border-radius: 8px;
+}
+#current-resume{
+    margin: auto;
+    width:auto;
 }
 .navButton{
     font-family: 'Comfortaa', cursive;
@@ -28,4 +40,16 @@ h1 {
 }
 .navButton:hover {
     background-color: #ccc;
+}
+#body{
+    width: 100%;
+}
+.contentItem{
+    width: 50%;
+    margin: 0 auto;
+    background: linear-gradient(#ccc, #bbb); 
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
 }
