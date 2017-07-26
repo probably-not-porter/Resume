@@ -1,53 +1,57 @@
 @import url('https://fonts.googleapis.com/css?family=Comfortaa|Indie+Flower');
-body{
-    background-color: darkgray;
+body {
+    background-color: #193441   ;
 }
 h1 {
-    font-family: 'Indie Flower', cursive;
+    font-family: 'Comfortaa', cursive;
     font-size: 40px;
-    color: #222;
-    margin-left: 150px; 
+    color: #FCFFF5;
+    margin-left: 120px; 
 }
 h2 {
-    font-family: 'Indie Flower', cursive;
+    font-family: 'Comfortaa', cursive;
     text-align: center;
+}
+h3{
+    font-family: 'Comfortaa', cursive;
+    font-size: 15px;
 }
 p1 {
     font-family: 'Comfortaa', cursive;
     font-size: 14px;
 }
-#head{
+#head {
     width: 500px;
-    background-image: url("bg1.jpg");
+    background-color:#3E606F ;
     margin: auto;
     padding: 20px;
     border-radius: 8px;
 }
-#current-resume{
+#current-resume {
     margin: auto;
     width:auto;
 }
-#nav{
+#nav {
     height: 45px;
 }
-#nav2{
-        width: 50%;
-        margin: 0 auto;
+#nav2 {
+    width: 50%;
+    margin: 0 auto;
 }
-.navButton{
+.navButton {
     display: inline;
     font-family: 'Comfortaa', cursive;
     font-size: 15px;
     padding: 10px;
     width: 27%;
     height: 45px;
-    background-color: #83967b;
+    background-color: #D1DBBD;
     border: 1px solid black;
     border-radius: 3px;
     transition-duration: 200ms;
     margin-left: 20px;
 }
-.socialButton{
+.socialButton {
     background-color: transparent;
     border: none;
     display: inline;
@@ -59,21 +63,21 @@ p1 {
     border-radius: 50%;
 }
 .navButton:hover {
-    background-color: #ccc;
+    background-color: whitesmoke;
 }
 .socialButton:hover {
-    background-color: rgba(255,255,255,0.1)
+    background-color: #193441;
 }
-#body{
-    width: 100%;
+#body {
+    width: 99%;
 }
-.contentItem{
+.contentItem {
     width: 50%;
     margin: 0 auto;
-    background: linear-gradient(#ccc, #bbb); 
+    background-color: #FCFFF5;
     margin-top: 20px;
     padding: 10px;
-    border: 1px solid gray;
+    border: 5px solid #91AA9D;
     border-radius: 5px;
 }
 #current-resume {
@@ -85,4 +89,5 @@ p1 {
     margin-left: 15%;
     margin-right: 15%;
     margin-top: 100px;
+    border: 5px solid #91AA9D;
 }
