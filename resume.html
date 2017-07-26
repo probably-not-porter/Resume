@@ -13,15 +13,35 @@
             <div id="head">
                 <h1>Porter Libby</h1>
                 <div id="nav">
-                    <button onclick="location.href='index.html'" class="navButton"><strong>About</strong></button>
+                    <button 
+                        onclick="location.href='index.html'"
+                        class="navButton">
+                        <strong>About</strong>
+                    </button>
                     <button class="navButton">Resume</button>
-                    <button onclick="location.href='portfolio.html'" class="navButton"><strong>Portfolio</strong></button>
-                    <button onclick="location.href='https://github.com/probably-not-porter'" class="navButton"><strong>Github</strong></button>
+                    <button 
+                        onclick="location.href='portfolio.html'" 
+                        class="navButton">
+                        <strong>Portfolio</strong>
+                    </button>
+                    
+                </div>
+                <div id="nav2">
+                    <button 
+                        style="background-image: url( 'github.png' )" 
+                        onclick="location.href='https://github.com/probably-not-porter'" 
+                        class="socialButton">
+                    </button>
+                    <button 
+                        style="background-image: url( 'linkedin.png' )" 
+                        onclick="location.href='https://www.linkedin.com/in/porter-libby-41b292147/'"
+                        class="socialButton">
+                    </button>
                 </div>
             </div>
             <div id="body">
                 <div id="current-resume">
-                    <iframe src="current-resume.pdf" style="width: 100%;height: 1000px;border: none;"></iframe>
+                    <img id="resume-image"src="current-resume.png" alt="current resume">
                 </div>
             </div>
         </div>

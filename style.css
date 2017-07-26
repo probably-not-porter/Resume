@@ -76,3 +76,13 @@ p1 {
     border: 1px solid gray;
     border-radius: 5px;
 }
+#current-resume {
+    width: 100%;
+}
+#resume-image {
+    width: 70%;
+    height: auto;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 100px;
+}
