@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Comfortaa|Indie+Flower');
 body {
     background-color: #193441   ;
+    width: 99%;
 }
 h1 {
     font-family: 'Comfortaa', cursive;
@@ -11,10 +12,12 @@ h1 {
 h2 {
     font-family: 'Comfortaa', cursive;
     text-align: center;
+    color:#3E606F;
 }
 h3{
     font-family: 'Comfortaa', cursive;
     font-size: 15px;
+    color:#3E606F;
 }
 p1 {
     font-family: 'Comfortaa', cursive;
@@ -22,10 +25,11 @@ p1 {
 }
 #head {
     width: 500px;
-    background-color:#3E606F ;
+    background-color:#3E606F;
     margin: auto;
     padding: 20px;
     border-radius: 8px;
+    border: 5px solid #91AA9D;
 }
 #current-resume {
     margin: auto;
@@ -46,6 +50,7 @@ p1 {
     width: 27%;
     height: 45px;
     background-color: #D1DBBD;
+    color:#3E606F;
     border: 1px solid black;
     border-radius: 3px;
     transition-duration: 200ms;
@@ -88,6 +93,6 @@ p1 {
     height: auto;
     margin-left: 15%;
     margin-right: 15%;
-    margin-top: 100px;
+    margin-top: 20px;
     border: 5px solid #91AA9D;
 }
