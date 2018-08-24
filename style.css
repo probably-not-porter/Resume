@@ -23,6 +23,25 @@ h3{
     font-size: 15px;
     color:#3E606F;
 }
+
+
+h4 {
+    font-family: 'Comfortaa', cursive;
+    color: #3E606F;
+}
+p4 {
+    font-family: 'Comfortaa', cursive;
+    padding-left: 10px;
+}
+.portfolioItem {
+    background-color: rgb(255,255,255,0.40);
+    padding: 10px;
+    margin-bottom: 10px;
+    padding-left: 30px;
+}
+
+
+
 p1 {
     font-family: 'Comfortaa', cursive;
     font-size: 14px;
@@ -60,6 +79,19 @@ p1 {
     transition-duration: 200ms;
     margin-left: 20px;
 }
+.gitButton {
+    display: inline;
+    font-family: 'Comfortaa', cursive;
+    font-size: 15px;
+    padding: 10px;
+    width: 27%;
+    height: 45px;
+    color:#3E606F;
+    border: 1px solid black;
+    border-radius: 3px;
+    transition-duration: 200ms;
+    margin-left: 10px;
+}
 .socialButton {
     background-color: transparent;
     border: none;
@@ -76,6 +108,9 @@ p1 {
 }
 .socialButton:hover {
     background-color: #193441;
+}
+.gitButton:hover {
+    background-color: gray;
 }
 #body {
     width: 99%;
