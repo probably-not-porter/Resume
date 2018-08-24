@@ -1,13 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Comfortaa|Indie+Flower');
 body {
-    background-color: #193441;
-    background: radial-gradient(#193441,#192431);
+    background-image: url("bg2.jpg");
 
     width: 99%;
 }
 #container{
-  background-image: url("bg.png");
-  background-size: 100%;
+
 }
 h1 {
     font-family: 'Comfortaa', cursive;
@@ -85,7 +83,7 @@ p1 {
 .contentItem {
     width: 50%;
     margin: 0 auto;
-    background-color: rgb(255,255,255,0.5);
+    background-color: rgb(255,255,255,0.75);
     margin-top: 20px;
     padding: 10px;
     border: 5px solid darkgray;
