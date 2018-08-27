@@ -31,7 +31,6 @@ h4 {
 }
 p4 {
     font-family: 'Comfortaa', cursive;
-    padding-left: 10px;
 }
 .portfolioItem {
     background-color: rgb(255,255,255,0.40);
@@ -39,7 +38,9 @@ p4 {
     margin-bottom: 10px;
     padding-left: 30px;
 }
-
+.textItem {
+    padding-left: 10px;
+}
 
 
 p1 {
@@ -80,17 +81,18 @@ p1 {
     margin-left: 20px;
 }
 .gitButton {
-    display: inline;
+    display:block;
     font-family: 'Comfortaa', cursive;
     font-size: 15px;
-    padding: 10px;
-    width: 27%;
-    height: 45px;
+    padding-left: 10px;
+    width: 150px;
+    height: 50px;
     color:#3E606F;
     border: 1px solid black;
     border-radius: 3px;
     transition-duration: 200ms;
     margin-left: 10px;
+    margin-top: 10px;
 }
 .socialButton {
     background-color: transparent;
