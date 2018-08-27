@@ -32,6 +32,14 @@ h4 {
 p4 {
     font-family: 'Comfortaa', cursive;
 }
+p5{
+  color: white;
+}
+#footer{
+  margin-top: 20px;
+  width: 100%;
+  text-align: center;
+}
 .portfolioItem {
     background-color: rgb(255,255,255,0.40);
     padding: 10px;
