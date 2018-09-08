@@ -103,6 +103,7 @@ p1 {
     width: 150px;
     height: 50px;
     color:#3E606F;
+    background-color: darkgray;
     border: 1px solid black;
     border-radius: 3px;
     transition-duration: 200ms;
@@ -120,6 +121,7 @@ p1 {
     width: 150px;
     height: 50px;
     color:#3E606F;
+    background-color: darkgray;
     border: 1px solid black;
     border-radius: 3px;
     transition-duration: 200ms;
@@ -144,6 +146,9 @@ p1 {
     background-color: #193441;
 }
 .gitButton:hover {
+    background-color: gray;
+}
+.linkButton:hover {
     background-color: gray;
 }
 #body {
