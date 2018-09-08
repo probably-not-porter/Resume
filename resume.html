@@ -5,41 +5,24 @@
         <title>Porter Libby - Resume</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">        
+        <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
         <link rel="stylesheet" href="style.css">
         <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+        <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
     </head>
     <body>
-        <div id="container"W>
+        <div id="container">
+
             <div id="head">
-                <h1>Porter Libby</h1>
-                <div id="nav">
-                    <button 
-                        onclick="location.href='index.html'"
-                        class="navButton">
-                        <strong>About</strong>
-                    </button>
-                    <button class="navButton">Resume</button>
-                    <button 
-                        onclick="location.href='portfolio.html'" 
-                        class="navButton">
-                        <strong>Portfolio</strong>
-                    </button>
-                    
+                <div id="nav-placeholder">
                 </div>
-                <div id="nav2">
-                    <button 
-                        style="background-image: url( 'github.png' )" 
-                        onclick="location.href='https://github.com/probably-not-porter'" 
-                        class="socialButton">
-                    </button>
-                    <button 
-                        style="background-image: url( 'linkedin.png' )" 
-                        onclick="location.href='https://www.linkedin.com/in/porter-libby-41b292147/'"
-                        class="socialButton">
-                    </button>
-                </div>
+                <script>
+                    $(function(){
+                        $("#nav-placeholder").load("nav.html");
+                    });
+                </script>
             </div>
+
             <div id="body">
                 <div id="current-resume">
                     <img id="resume-image"src="current-resume.png" alt="current resume">
