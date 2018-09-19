@@ -36,12 +36,12 @@ p1 {
     font-size: 14px;
 }
 #head {
-    width: 500px;
+    width: 150px;
     background: radial-gradient(#193441,#192431);
-    margin: auto;
-    padding: 20px;
-    border-radius: 8px;
-    border: 5px solid darkgray;
+    margin: 0px auto;
+    float: left;
+    padding: 10px;
+    position:fixed;
 }
 
 #body {

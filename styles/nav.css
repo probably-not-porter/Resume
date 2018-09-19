@@ -1,44 +1,38 @@
 @import url('https://fonts.googleapis.com/css?family=Comfortaa|Indie+Flower');
-h1 {
+h6 {
     font-family: 'Comfortaa', cursive;
-    font-size: 40px;
+    font-size: 30px;
     color: #FCFFF5;
-    margin-left: 120px;
+    text-align: center;
 }
 #nav {
-    display: table;
-    height: 45px;
-    table-layout: fixed;
+  margin-bottom: 40px;
 }
 #nav2 {
-    display: table;
-    width: 100%;
-    margin: 0 auto;
-    table-layout: fixed;
+  margin-bottom: 40px;
 }
 .navButton {
-    display: inline;
     font-family: 'Comfortaa', cursive;
     font-size: 15px;
     height: 45px;
-    width: 150px;
+    width: 100%;
+    margin-bottom: 10px;
     background-color: #D1DBBD;
     color:#3E606F;
     border: 1px solid black;
-    border-radius: 3px;
     transition-duration: 200ms;
-    margin-left: 10px;
 }
 .socialButton {
     background-color: transparent;
+    padding: 3px 30px;
+    justify-content: center;
+    background-position: center;
     border: none;
-    display: inline;
-    background-size: 100%;
-    height: 32px;
-    width: 32px;
-    margin-top: 30px;
-    border-radius: 50%;
-    margin-left: 71px;
+    background-size: 32px 32px;
+    background-repeat: no-repeat;
+    height: 45px;
+    width: 100%;
+    margin-bottom: 10px;s
 }
 .navButton:hover {
     background-color: whitesmoke;
