@@ -1,0 +1,13 @@
+#current-resume {
+    width: 100%;
+    margin: auto;
+    width:auto;
+}
+#resume-image {
+    width: 70%;
+    height: auto;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 20px;
+    border: 5px solid darkgray;
+}
