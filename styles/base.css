@@ -1,61 +1,47 @@
-@import url('https://fonts.googleapis.com/css?family=Comfortaa|Indie+Flower');
-
-body {
-    background-color: #2a323f;
-    background-image: url('../img_bg/bg.png');
-    background-repeat: repeat-x;
+#header{
+  width:100%;
+  display: block;
 }
-h1 {
-    font-family: 'Comfortaa', cursive;
-    font-size: 40px;
-    color: #FCFFF5;
-    margin-left: 120px;
+#title{
+  text-align: center;
+  margin-bottom: 10px;
 }
-h2 {
-    font-family: 'Comfortaa', cursive;
-    text-align: center;
-    color:#3E606F;
+#title h{
+  color: red;
+  font-size: 40px;
 }
-h3 {
-    font-family: 'Comfortaa', cursive;
-    font-size: 15px;
-    color:#3E606F;
-}
-h4 {
-    font-family: 'Comfortaa', cursive;
-    color: #3E606F;
-}
-p4 {
-    font-family: 'Comfortaa', cursive;
-}
-p5 {
-  color: white;
-}
-p1 {
-    font-family: 'Comfortaa', cursive;
-    font-size: 14px;
-}
-#head {
-    width: 150px;
-    background: radial-gradient(#193441,#192431);
-    margin: 0px auto;
-    float: left;
-    padding: 10px;
-    position:fixed;
+#nav{
+  display:inline-block;
+  width: 100%;
+  height: 40px;
+  text-align: center;
 }
 
-#body {
-    width: 99%;
+
+#gitbutton{
+  background-image: url("../img_icons/github.png");
 }
-.contentItem {
-    width: 50%;
-    margin: 0 auto;
-    background-color: rgb(255,255,255,0.75);
-    margin-top: 20px;
-    padding: 10px;
-    border: 5px solid darkgray;
-    border-radius: 5px;
+#facebookbutton{
+  background-image: url("../img_icons/facebook.png");
 }
-.textItem {
-    padding-left: 10px;
+#emailbutton{
+  background-image: url("../img_icons/email.png");
+}
+#linkedinbutton{
+  background-image: url("../img_icons/linkedin.png");
+}
+#nodejsbutton{
+  background-image: url("../img_icons/nodejs.png");
+}
+.navbutton{
+  width: 40px;
+  height: 40px;
+  background-size: 100%;
+  display:inline-block;
+  margin: 0px 10px;
+  border-radius: 50%;
+}
+.navbutton:hover{
+  background-color: lightgray;
+  transition-duration: 0.5s;
 }
