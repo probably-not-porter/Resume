@@ -80,8 +80,10 @@ a{
   position:relative;
   float:right;
   border:2px solid black;
+  margin-left: 20px;
 }
 .content_text{
+  width: 100%;
   padding:5px;
   min-height: 250px;
   margin-right: 310px;
