@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono:400,400i|IBM+Plex+Sans+Condensed:400,400i|IBM+Plex+Sans:100,100i,400,400i,700,700i|IBM+Plex+Serif:400,400i');
-
+*{
+  box-sizing:content-box;
+}
 
 body{
   background-color: black;
@@ -8,8 +10,9 @@ body{
   margin:0px;
   text-align: center;
 }
-h2{
-
+.nes-btn{
+  font-family: "Press Start 2P";
+  font-size: 12px;
 }
 #header{
   width:100%;
@@ -47,24 +50,30 @@ h2{
 }
 #title h{
   color: black;
-  font-size: 40px;
-  font-family: 'IBM Plex Mono', monospace;
+  font-size: 30px;
+  font-family: "Press Start 2P";
 }
-#title h2{
+h2{
   color: black;
-  font-size: 13px;
-  font-family: 'IBM Plex Mono', monospace;
+  font-size: 15px;
+  font-family: "Press Start 2P";
 }
 #internalnav{
   color: black;
+  margin-top: 10px;
   font-size: 20px;
-  font-family: 'IBM Plex Mono', monospace;
+  font-size: 14px;
+  font-family: "Press Start 2P";
 }
 #nav{
   display:inline-block;
   width: 100%;
   height: 40px;
   text-align: center;
+  font-family: "Press Start 2P";
+}
+a{
+  font-family: "Press Start 2P";
 }
 .content_image{
   width: 250px;
@@ -74,7 +83,7 @@ h2{
 }
 .content_text{
   padding:5px;
-  height: 250px;
+  min-height: 250px;
   margin-right: 310px;
   text-align: justify;
   z-index: 1;
