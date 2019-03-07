@@ -18,7 +18,7 @@ body{
   width:100%;
   display: block;
   background-image: linear-gradient(rgba(245,245,245,0.8), rgba(245,245,245,0.5));
-  height: 170px;
+  height: 120px;
   position: fixed;
   top: 0px;
   z-index: 2;
@@ -74,6 +74,10 @@ h2{
 }
 a{
   font-family: "Press Start 2P";
+  color: black;
+}
+a:hover{
+  color: white;
 }
 .content_image{
   width: 250px;
