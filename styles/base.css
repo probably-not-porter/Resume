@@ -95,6 +95,7 @@ a:hover{
   z-index: 1;
 }
 button {
+  transition-duration: 1s;
 	-moz-box-shadow:inset 0px 1px 0px 0px #bee2f9;
 	-webkit-box-shadow:inset 0px 1px 0px 0px #bee2f9;
 	box-shadow:inset 0px 1px 0px 0px #bee2f9;
@@ -113,14 +114,17 @@ button {
 	display:inline-block;
 	cursor:pointer;
 	color:#14396a;
-	font-family:Arial;
-	font-size:15px;
+	font-family: "Open Sans";
+	font-size:13px;
 	font-weight:bold;
-	padding:6px 24px;
+	padding:4px;
+  width: 140px;
 	text-decoration:none;
 	text-shadow:0px 1px 0px #7cacde;
+
 }
 button:hover {
+  transition-duration: 1s;
 	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #468ccf), color-stop(1, #63b8ee));
 	background:-moz-linear-gradient(top, #468ccf 5%, #63b8ee 100%);
 	background:-webkit-linear-gradient(top, #468ccf 5%, #63b8ee 100%);
@@ -131,6 +135,7 @@ button:hover {
 	background-color:#468ccf;
 }
 button:active {
+  transition-duration: 1s;
 	position:relative;
 	top:1px;
 }
@@ -164,4 +169,12 @@ button:active {
 .navbutton:hover{
   transition-duration: 0.5s;
   filter: invert(10);
+}
+i{
+  font-size: 20px;
+  margin-right: 10px;
+}
+.button_label{
+  position: relative;
+  top: -3px;
 }
