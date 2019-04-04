@@ -1,7 +1,7 @@
 <html>
   <head>
     <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <script src="https://unpkg.com/feather-icons"></script>
     <link rel="stylesheet" type="text/css" href="styles/base.css"/>
     <title>Porter Libby</title>
     <link rel='icon' href='img_icons/favicon.png' type='image'/>
@@ -12,28 +12,28 @@
         <h><strong>Porter Libby</strong></h>
       </div>
       <div id="nav">
-        <div id="internalnav">
-          <button onclick="window.location.href='https://docs.google.com/document/d/1jc7Mi7Lw40W-zh7eJSHUv-NtldQ7mfW1217N2lDLDaA/edit?usp=sharing'" type="button">
-            <i class="fas fa-file"></i>
+        <span id="internalnav">
+          <button class="left-button" onclick="window.location.href='https://docs.google.com/document/d/1jc7Mi7Lw40W-zh7eJSHUv-NtldQ7mfW1217N2lDLDaA/edit?usp=sharing'" type="button">
+            <i data-feather="file-text"></i>
             <span class="button_label">Resume</span>
           </button>
-          <button onclick="window.location.href='https://www.facebook.com/porter.libby'" type="button">
-            <i class="fab fa-facebook"></i>
+          <button class="middle-button" onclick="window.location.href='https://www.facebook.com/porter.libby'" type="button">
+            <i data-feather="facebook"></i>
             <span class="button_label">Facebook</span>
           </button>
-          <button onclick="window.location.href='https://github.com/probably-not-porter'" type="button">
-            <i class="fab fa-github-square"></i>
+          <button class="middle-button" onclick="window.location.href='https://github.com/probably-not-porter'" type="button">
+            <i data-feather="github"></i>
             <span class="button_label">Github</span>
           </button>
-          <button onclick="window.location.href='https://www.instagram.com/probably_not_porter/?hl=en'" type="button">
-            <i class="fab fa-instagram"></i>
+          <button class="middle-button" onclick="window.location.href='https://www.instagram.com/probably_not_porter/?hl=en'" type="button">
+            <i data-feather="instagram"></i>
             <span class="button_label">Instagram</span>
           </button>
-          <button onclick="window.location.href='https://www.linkedin.com/in/porter-libby-41b292147/'" type="button">
-            <i class="fab fa-linkedin"></i>
+          <button class="right-button" onclick="window.location.href='https://www.linkedin.com/in/porter-libby-41b292147/'" type="button">
+            <i data-feather="linkedin"></i>
             <span class="button_label">LinkedIn</span>
           </button>
-        </div>
+        </span>
       </div>
     </div>
 
@@ -57,11 +57,11 @@
           </p1>
           <br><br>
           <button onclick="window.location.href='https://github.com/hungphi98/euclidean-sequencer'" type="button">
-            <i class="fas fa-code-branch"></i>
+            <i data-feather="git-branch"></i>
             <span class="button_label">Git Repo</span>
           </button>
           <button onclick="window.location.href='http://euclidean-sequencer.herokuapp.com/'" type="button">
-            <i class="fas fa-link"></i>
+            <i data-feather="link"></i>
             <span class="button_label">Live Demo</span>
           </button>
         </div>
@@ -86,7 +86,7 @@
           </p1>
           <br><br>
           <button onclick="window.location.href='https://probably-not-porter.github.io/SpellBound/'" type="button" class="nes-btn is-success">
-            <i class="fas fa-link"></i>
+            <i data-feather="link"></i>
             <span class="button_label">Live Demo</span>
           </button>
         </div>
@@ -104,5 +104,6 @@
       <br>
 
     </div>
+    <script>feather.replace()</script>
   </body>
 </html>
