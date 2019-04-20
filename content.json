@@ -1,0 +1,32 @@
+[
+    {
+        "title" : "SpellBound",
+        "content" : "This project was created for Project 1 in CS345 : Software Engineering. The sequencer is designed to express 1 to 6 voices, each with many configurable options, including key, octave, wave type, and more. Each voice has a configurable number of pulses, which will be distributed evenly across the selected number of steps, resulting in complex polyrhythms and interesting offbeat patterns.",
+        "img_url" : "./img_content/spellbound.png",
+        "icon_url" : "./img_content/spellbound-icon.png",
+        "link_array" : {
+            "Git Repo" : "",
+            "Live Demo" : ""
+        }
+    },
+    {
+        "title" : "Euclidean Step Sequencer",
+        "content" : "Spellbound is a co-op platformer game, originally created for CS380. The game is built using the Unity engine with C# as the primary scripting language. All the art and music are original, and created by our team. The live demo is updated frequently.",
+        "img_url" : "./img_content/sequencer.png",
+        "icon_url" : "./img_content/euclid-icon.png",
+        "link_array" : {
+            "Git Repo" : "",
+            "Live Demo" : ""
+        }
+    },
+    {
+        "title" : "YaHeard",
+        "content" : "YaHeard is a geotagging, semi-anonymous social network, created in React Native for both Android and iOS. It is meant to be a content driven network, where the context of the post itself is removed from any personal information which might destract from the quality of the content.",
+        "img_url" : "./img_content/yaheard2.png",
+        "icon_url" : "./img_content/yaheard.png",
+        "link_array" : {
+            "Git Repo" : "",
+            "Live Demo" : ""
+        }
+    }
+]
