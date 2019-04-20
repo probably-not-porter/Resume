@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="css/main.css" />
+        <script type="text/javascript" src="js/main.js"></script>
+    </head>
+    <body>
+        <script>var content = <%= content %></script>
+        <div id="content_container">
+            <% for (var x = 0; x < content.length; x++) { %>
+
+                <div class="content_item">
+                    <img class="content_image" src="<%= content[x].img_url %>" alt="sequencer_screenshot">
+                    <div class="content_title_bar">
+                        <span class="content_item_title">
+                            <img class="content_item_icon" src="<%= content[x].icon_url %>" alt="<%= content[x].title %> icon">
+                            <%= content[x].title %>
+                            <img class="content_item_icon" src="<%= content[x].icon_url %>" alt="<%= content[x].title %> icon">
+                        </span>
+                    </div>
+                    <span class="content_item_content"><%= content[x].content %></p>
+                </div>
+
+            <% } %>
+        </div>
+
+    </body>
+</html>
