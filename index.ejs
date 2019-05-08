@@ -49,9 +49,19 @@
                     </div>
                     <span class="content_item_content">
                         <%= content[x].content %>
-                        <%= content[x].git_repo %>
                     </span>
-                    
+                    <div>
+                        <% if (content[x].git_repo != "") { %>
+                            <div class="nav_left">
+                                <i data-feather="github"></i>
+                            </div>
+                        <% } %>
+                        <% if (content[x].live_demo != "") { %>
+                            <div class="nav_left">
+                                <i data-feather="link"></i>
+                            </div>
+                        <% } %>
+                    </div>
                 </div>
 
             <% } %>
