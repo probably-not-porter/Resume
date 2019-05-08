@@ -5,6 +5,7 @@
         <meta charset="utf-8">
         <link rel="stylesheet" type="text/css" href="css/main.css" />
         <script type="text/javascript" src="js/main.js"></script>
+        <script src="path/to/dist/feather.js"></script>
     </head>
     <body>
         <script>var content = <%= content %></script>
@@ -13,7 +14,7 @@
         </div>
         <div id="content_container">
             <% for (var x = 0; x < content.length; x++) { %>
-
+                <i data-feather="circle"></i>
                 <div class="content_item">
                     <img class="content_image" src="<%= content[x].img_url %>" alt="sequencer_screenshot">
                     <div class="content_title_bar">
@@ -28,6 +29,9 @@
 
             <% } %>
         </div>
-
+    <script>
+        feather.replace()
+    </script> 
     </body>
+    
 </html>
