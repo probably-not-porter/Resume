@@ -1,11 +1,30 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 
 body{
-    background-color: #ddd;
+    background-color: black;
+    background-image: url("../img_bg/bg.png");
+    background-repeat: repeat-x;
+}
+#header{
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 10px;
+    height: 100px;
+    width: 50%;
+    min-width: 200px;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    text-align: center;
+}
+#title{
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
 }
 
 .content_item{
-    background-color: #bbb;
+    background-color: rgba(255, 255, 255, 0.7);
     border-radius: 10px;
     height: 300px;
     width: 70%;
@@ -14,6 +33,7 @@ body{
     margin-right: 15%;
     margin-bottom: 20px;
     padding-left: 20px;
+    border: 2px solid black;
 }
 
 .content_image{
@@ -22,8 +42,8 @@ body{
     min-height: 300px;
     max-height: 100%;
     min-width: 300px;
-    border-bottom-right-radius: 10px;
-    border-top-right-radius: 10px;
+    border-bottom-right-radius: 8px;
+    border-top-right-radius: 8px;
 }
 
 
@@ -53,5 +73,7 @@ body{
 
 .content_item_content{
     font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    line-height: 20pt;
 
 }
