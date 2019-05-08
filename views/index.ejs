@@ -49,12 +49,12 @@
                     </span>
                     <div class="content_buttons">
                         <% if (content[x].git_repo != "") { %>
-                            <div class="nav_left" onclick="window.location ='<%= content[x].git_repo %>';">
+                            <div class="nav_single" onclick="window.location ='<%= content[x].git_repo %>';">
                                 <i data-feather="github"></i>
                             </div>
                         <% } %>
                         <% if (content[x].live_demo != "") { %>
-                            <div class="nav_left" onclick="location.href='<%= content[x].live_demo %>';">
+                            <div class="nav_single" onclick="location.href='<%= content[x].live_demo %>';">
                                 <i data-feather="link"></i>
                             </div>
                         <% } %>
