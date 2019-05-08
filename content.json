@@ -12,15 +12,15 @@
         "content" : "Spellbound is a co-op platformer game, originally created for CS380. The game is built using the Unity engine with C# as the primary scripting language. All the art and music are original, and created by our team. The live demo is updated frequently.",
         "img_url" : "./img_content/sequencer.png",
         "icon_url" : "./img_content/euclid-icon.png",
-        "git_repo" : "",
-        "live_demo" : ""
+        "git_repo" : "https://github.com/hungphi98/euclidean-sequencer",
+        "live_demo" : "http://euclidean-sequencer.herokuapp.com/"
     },
     {
         "title" : "YaHeard",
         "content" : "YaHeard is a geotagging, semi-anonymous social network, created in React Native for both Android and iOS. It is meant to be a content driven network, where the context of the post itself is removed from any personal information which might destract from the quality of the content.",
         "img_url" : "./img_content/yaheard2.png",
         "icon_url" : "./img_content/yaheard.png",
-        "git_repo" : "",
+        "git_repo" : "https://github.com/hungphi98/yaheard",
         "live_demo" : ""
     }
 ]
