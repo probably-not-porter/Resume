@@ -50,14 +50,14 @@
                     <span class="content_item_content">
                         <%= content[x].content %>
                     </span>
-                    <div>
+                    <div class="content_buttons">
                         <% if (content[x].git_repo != "") { %>
-                            <div class="nav_left">
+                            <div class="nav_left" onclick="location.href='<% content[x].git_repo %>';">
                                 <i data-feather="github"></i>
                             </div>
                         <% } %>
                         <% if (content[x].live_demo != "") { %>
-                            <div class="nav_left">
+                            <div class="nav_left" onclick="location.href='<% content[x].live_demo %>';">
                                 <i data-feather="link"></i>
                             </div>
                         <% } %>
