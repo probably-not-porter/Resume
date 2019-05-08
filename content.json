@@ -1,7 +1,7 @@
 [
     {
         "title" : "SpellBound",
-        "content" : "This project was created for Project 1 in CS345 : Software Engineering. The sequencer is designed to express 1 to 6 voices, each with many configurable options, including key, octave, wave type, and more. Each voice has a configurable number of pulses, which will be distributed evenly across the selected number of steps, resulting in complex polyrhythms and interesting offbeat patterns.",
+        "content" : "Spellbound is a co-op platformer game, originally created for CS380. The game is built using the Unity engine with C# as the primary scripting language. All the art and music are original, and created by our team. The live demo is updated frequently.",
         "img_url" : "./img_content/spellbound.png",
         "icon_url" : "./img_content/spellbound-icon.png",
         "git_repo" : "https://github.com/probably-not-porter/SpellBound",
@@ -9,7 +9,7 @@
     },
     {
         "title" : "Euclidean Step Sequencer",
-        "content" : "Spellbound is a co-op platformer game, originally created for CS380. The game is built using the Unity engine with C# as the primary scripting language. All the art and music are original, and created by our team. The live demo is updated frequently.",
+        "content" : "This project was created for Project 1 in CS345 : Software Engineering. The sequencer is designed to express 1 to 6 voices, each with many configurable options, including key, octave, wave type, and more. Each voice has a configurable number of pulses, which will be distributed evenly across the selected number of steps, resulting in complex polyrhythms and interesting offbeat patterns.",
         "img_url" : "./img_content/sequencer.png",
         "icon_url" : "./img_content/euclid-icon.png",
         "git_repo" : "https://github.com/hungphi98/euclidean-sequencer",
