@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light');
 
 body{
     background-color: black;
@@ -19,16 +20,54 @@ body{
 }
 #title{
     width: 100%;
-    font-family: 'Roboto', sans-serif;
-    font-size: 36px;
+    font-family: 'Shadows Into Light', sans-serif;
+    font-size: 38px;
 }
-
+#nav{
+    width: 100%;
+}
+.feather {
+    width: 28px;
+    height: 28px;
+    stroke: black;
+    stroke-width: 1;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    fill: none;
+}
+.feather:hover {
+    transition-duration: 500ms;
+    width: 28px;
+    height: 28px;
+    stroke: #555;
+    stroke-width: 3;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    fill: none;
+}
+.btn_title{
+    font-family: 'Shadows Into Light', sans-serif;
+    font-size: 28px;
+    position: relative
+}
+.nav_left{
+    display: inline-block;
+    text-align: center;
+    margin-right: 10px;
+}
+.nav_mid{
+    display: inline-block;
+    margin-right: 10px;
+}
+.nav_right{
+    display: inline-block;
+}
 .content_item{
     background-color: rgba(255, 255, 255, 0.7);
     border-radius: 10px;
-    height: 300px;
+    min-height: 300px;
     width: 70%;
-    min-width: 625px;
+    min-width: 850px;
     margin-left: 15%;
     margin-right: 15%;
     margin-bottom: 20px;
@@ -39,9 +78,8 @@ body{
 .content_image{
     z-index: 1;
     float: right;  
-    min-height: 300px;
-    max-height: 100%;
-    min-width: 300px;
+    height: 300px;
+    width: 300px;
     border-bottom-right-radius: 8px;
     border-top-right-radius: 8px;
 }
@@ -65,10 +103,10 @@ body{
     display: inline-block;
     margin-left: 20px;
     margin-right: 20px;
-    font-size: 20px;
+    font-size: 24px;
     border-bottom: 1px solid black;
     padding-bottom: 10px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Shadows Into Light', sans-serif;
 }
 
 .content_item_content{
@@ -76,4 +114,8 @@ body{
     font-size: 15px;
     line-height: 20pt;
 
+}
+.content_buttons{
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
