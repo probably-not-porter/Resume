@@ -1,6 +1,6 @@
 const express = require('express');
 var path = require('path');
-// var favicon = require('serve-favicon');
+var favicon = require('serve-favicon');
 
 var jsonFile = require('jsonfile');
 var jsonData = jsonFile.readFileSync('content.json');
@@ -13,6 +13,9 @@ ghpages.publish('views', function(err) {});
 
 
 const app = express();
+
+app.use(favicon(path.join(__dirname, 'public/img_icons', 'favicon.png')));
+
 app.set('view engine', 'ejs');
 app.get('/', function(req, res) {
     res.render("index",{
