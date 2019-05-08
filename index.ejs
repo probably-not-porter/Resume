@@ -47,17 +47,11 @@
                             <img class="content_item_icon" src="<%= content[x].icon_url %>" alt="<%= content[x].title %> icon">
                         </span>
                     </div>
-                    <span class="content_item_content"><%= content[x].content %></p>
-                        <% if (content[x].link_array.git_repo != ""){ %>
-                            <div class="nav_content">
-                                <i data-feather="github"></i>
-                            </div>
-                        <% } %>
-                        <% if (content[x].link_array.live_demo != ""){ %>
-                            <div class="nav_content">
-                                <i data-feather="file-text"></i>
-                            </div>
-                        <% } %>
+                    <span class="content_item_content">
+                        <%= content[x].content %>
+                        <%= content[x].git_repo %>
+                    </span>
+                    
                 </div>
 
             <% } %>
