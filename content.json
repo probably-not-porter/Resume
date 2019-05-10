@@ -1,5 +1,13 @@
 [
     {
+        "title" : "Color Shift",
+        "content" : "Color Shift is an android mobile game built in Unity. This was a solo project to practice my UX design as well as C# programming. After some of my previous projects, I wanted to work on something where I could really perfect a UI control system, so that it would be compadible with most Android devices.",
+        "img_url" : "./img_content/colorshift.png",
+        "icon_url" : "./img_content/colorshift-icon.png",
+        "git_repo" : "https://github.com/probably-not-porter/Color-Shift",
+        "live_demo" : ""
+    },
+    {
         "title" : "SpellBound",
         "content" : "Spellbound is a co-op platformer game, originally created for CS380. The game is built using the Unity engine with C# as the primary scripting language. All the art and music are original, and created by our team. The live demo is updated frequently.",
         "img_url" : "./img_content/spellbound.png",

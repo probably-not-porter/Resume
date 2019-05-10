@@ -5,6 +5,7 @@ body{
     background-color: black;
     background-image: url("../img_bg/bg.png");
     background-repeat: repeat-x;
+    background-attachment: fixed;
 }
 #header{
     background-color: rgba(255, 255, 255, 0.7);
