@@ -19,7 +19,7 @@
   "license": "ISC",
   "dependencies": {
     "ejs": "^2.6.1",
-    "eslint-utils": "^1.4.2",
+    "eslint-utils": "^1.4.1",
     "express": "^4.16.4",
     "feather-icons": "^4.21.0",
     "gh-pages": "^2.0.1",
