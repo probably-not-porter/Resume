@@ -1,66 +1,90 @@
-<!DOCTYPE html>
+<DOCTYPE html>
 <html lang="en" dir="ltr">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <head>
         <meta charset="utf-8">
-        <script type="text/javascript" src="js/main.js"></script>
         <script src="https://unpkg.com/feather-icons"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
         <link rel="stylesheet" type="text/css" href="css/main.css" />
     </head>
     <body>
         <script>var content = <%= content %></script>
         <div id="header">
-            <span id="title">Porter Libby</span>
-            </br>
-            <div id="nav">
-                <div class="nav_left" onclick="location.href='https://github.com/probably-not-porter';">
-                    <i data-feather="github"></i>
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <a class="navbar-brand" href="#">Porter Libby</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href='https://github.com/probably-not-porter'>
+                                <i style="margin-right: 10px" data-feather="github"></i>   Github
+                            <span class="sr-only">(current)</span></a>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href='https://www.instagram.com/probably_not_porter/?hl=en'>
+                                <i style="margin-right: 10px" data-feather="instagram"></i>   Instagram
+                            <span class="sr-only">(current)</span></a>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href='https://www.linkedin.com/in/porter-libby-41b292147/'>
+                                <i style="margin-right: 10px" data-feather="linkedin"></i>   LinkedIn
+                            <span class="sr-only">(current)</span></a>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href='https://docs.google.com/document/d/1jc7Mi7Lw40W-zh7eJSHUv-NtldQ7mfW1217N2lDLDaA/edit?usp=sharing'>
+                                <i style="margin-right: 10px" data-feather="file-text"></i>   Resume
+                            <span class="sr-only">(current)</span></a>
+                        </li>
+                    </ul>
+
                 </div>
-                <div class="nav_mid" onclick="location.href='https://www.facebook.com/porter.libby';">
-                    <i data-feather="facebook"></i>
-                </div>
-                <div class="nav_mid" onclick="location.href='https://www.instagram.com/probably_not_porter/?hl=en';">
-                    <i data-feather="instagram"></i>
-                </div>
-                <div class="nav_mid" onclick="location.href='https://www.npmjs.com/~pelibby16';">
-                    <i data-feather="hexagon"></i>
-                </div>
-                <div class="nav_mid" onclick="location.href='https://www.linkedin.com/in/porter-libby-41b292147/';">
-                    <i data-feather="linkedin"></i>
-                </div>
-                <div class="nav_right" onclick="location.href='https://docs.google.com/document/d/1jc7Mi7Lw40W-zh7eJSHUv-NtldQ7mfW1217N2lDLDaA/edit?usp=sharing';">
-                    <i data-feather="file-text"></i>
-                </div>
-            </div>
+            </nav>
         </div>
         <div id="content_container">
             <% for (var x = 0; x < content.length; x++) { %>
-                <div class="content_item">
-                    <img class="content_image" src="<%= content[x].img_url %>" alt="sequencer_screenshot">
-                    <div class="content_title_bar">
-                        <span class="content_item_title">
-                            <img class="content_item_icon" src="<%= content[x].icon_url %>" alt="<%= content[x].title %> icon">
-                            <%= content[x].title %>
-                            <img class="content_item_icon" src="<%= content[x].icon_url %>" alt="<%= content[x].title %> icon">
-                        </span>
-                    </div>
-                    <span class="content_item_content">
-                        <%= content[x].content %>
-                    </span>
-                    <div class="content_buttons">
-                        <% if (content[x].git_repo != "") { %>
-                            <div class="nav_single" onclick="window.location ='<%= content[x].git_repo %>';">
-                                <i data-feather="github"></i>
+
+                <!-- Card -->
+                <div class="card text-white bg-dark mb-3">
+                    <div class="row no-gutters">
+                        <!-- Card image -->
+                        <div class="col-md-4">
+                            <img class="card-img-top" src="<%= content[x].img_url %>" alt="Card image cap">
+                            <a>
+                                <div class="mask rgba-white-slight"></div>
+                            </a>
+                        </div>
+
+                        <!-- Card content -->
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <!-- Title -->
+                                <h4 class="card-title"><a><%= content[x].title %></a></h4>
+
+                                <!-- Text -->
+                                <p class="card-text"><%= content[x].content %></p>
+
+                                <!-- Button -->
+                                <% if (content[x].git_repo != "") { %>
+                                    <a href="<%= content[x].git_repo %>" class="btn btn-outline-success">Git Repo</a>
+                                <% } %>
+                                <% if (content[x].live_demo != "") { %>
+                                    <a href="<%= content[x].live_demo %>" class="btn btn-outline-success">Live Demo</a>
+                                <% } %>
                             </div>
-                        <% } %>
-                        <% if (content[x].live_demo != "") { %>
-                            <div class="nav_single" onclick="location.href='<%= content[x].live_demo %>';">
-                                <i data-feather="link"></i>
-                            </div>
-                        <% } %>
+                        </div>
                     </div>
                 </div>
-
             <% } %>
         </div>
     <script>

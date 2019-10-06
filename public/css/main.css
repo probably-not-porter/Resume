@@ -1,157 +1,18 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto');
-@import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light');
-
+html, body{
+    width: 100%;
+    height: 100%;
+}
 body{
-    background-color: black;
-    background-image: url("../img_bg/bg.png");
-    background-repeat: repeat-x;
-    background-attachment: fixed;
+    background: #222;
 }
-#header{
-    background-color: rgba(255, 255, 255, 0.7);
-    border-radius: 10px;
-    height: 120px;
-    width: 50%;
-    min-width: 650px;
-    margin-left: 25%;
-    margin-right: 25%;
+#content_container{
+    display: inline-block;
+    width: 100%;
+}
+.card{
+    margin-top: 20px;
     margin-bottom: 20px;
-    padding-left: 20px;
-    text-align: center;
-}
-#title{
-    width: 100%;
-    font-family: 'Shadows Into Light', sans-serif;
-    font-size: 38px;
-}
-#nav{
-    width: 100%;
-    font-size: 0;
-}
-.feather {
-    width: 28px;
-    height: 28px;
-    stroke: black;
-    stroke-width: 1;
-    stroke-linecap: round;
-    stroke-linejoin: round;
-    fill: none;
-}
-.btn_title{
-    font-family: 'Shadows Into Light', sans-serif;
-    font-size: 28px;
-    position: relative
-}
-.nav_left{
-    display: inline-block;
-    background-color: rgba(255, 255, 255, 0.8);
-    padding-top: 5px;
-    padding-bottom: 5px;
-    width: 100px;
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
-    border-right: 1px solid gray;
-    cursor: pointer;
-}
-.nav_mid{
-    display: inline-block;
-    background-color: rgba(255, 255, 255, 0.8);
-    padding-top: 5px;
-    padding-bottom: 5px;
-    width: 100px;
-    border-right: 1px solid gray;
-    cursor: pointer;
-}
-.nav_right{
-    display: inline-block;
-    background-color: rgba(255, 255, 255, 0.8);
-    padding-top: 5px;
-    padding-bottom: 5px;
-    width: 100px;
-    border-top-right-radius: 10px;
-    border-bottom-right-radius: 10px;
-    cursor: pointer;
-}
-.nav_single{
-    display: inline-block;
-    text-align: center;
-    background-color: rgba(255, 255, 255, 0.8);
-    padding-top: 5px;
-    padding-bottom: 5px;
-    width: 100px;
-    border-radius: 10px;
-    cursor: pointer;
-}
-.nav_left:hover{
-    transition-duration: 300ms;
-    background-color: rgba(255, 255, 255, 0.2);
-}
-.nav_mid:hover{
-    transition-duration: 300ms;
-    background-color: rgba(255, 255, 255, 0.2);
-}
-.nav_right:hover{
-    transition-duration: 300ms;
-    background-color: rgba(255, 255, 255, 0.2);
-}
-.nav_single:hover{
-    transition-duration: 300ms;
-    background-color: rgba(255, 255, 255, 0.2);
-}
-.content_item{
-    background-color: rgba(255, 255, 255, 0.7);
-    border-radius: 10px;
-    min-height: 300px;
-    width: 70%;
-    min-width: 850px;
-    margin-left: 15%;
-    margin-right: 15%;
-    margin-bottom: 20px;
-    padding-left: 20px;
-    border: 2px solid black;
-}
-
-.content_image{
-    z-index: 1;
-    float: right;  
-    height: 300px;
-    width: 300px;
-    border-bottom-right-radius: 8px;
-    border-top-right-radius: 8px;
-}
-
-
-.content_title_bar{
-    text-align: center;
-    padding-bottom: 10px;
-    padding-top: 20px;
-    width: 100%;
-    min-width: 200px;
-}
-
-.content_item_icon{
-    display: inline-block;
-    width: 16px;
-    height: 16px;
-}
-
-.content_item_title{
-    display: inline-block;
-    margin-left: 20px;
-    margin-right: 20px;
-    font-size: 24px;
-    border-bottom: 1px solid black;
-    padding-bottom: 10px;
-    font-family: 'Shadows Into Light', sans-serif;
-}
-
-.content_item_content{
-    font-family: 'Roboto', sans-serif;
-    font-size: 15px;
-    line-height: 20pt;
-
-}
-.content_buttons{
-    padding-top: 20px;
-    padding-bottom: 20px;
+    margin-left: 20%;
+    margin-right: 20%;
+    max-width: 60%;
 }
