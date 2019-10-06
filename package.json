@@ -24,6 +24,7 @@
     "gh-pages": "^2.0.1",
     "install": "^0.12.2",
     "jsonfile": "^5.0.0",
+    "lodash": "^4.17.15",
     "nodemon": "^1.18.9",
     "npm": "^6.7.0",
     "serve-favicon": "^2.5.0"
