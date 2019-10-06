@@ -23,3 +23,6 @@ body{
     -moz-box-shadow: 10px 10px 26px 0px rgba(0,0,0,0.75);
     box-shadow: 10px 10px 26px 0px rgba(0,0,0,0.75);
 }
+.bg-custom1 {
+    background-image: linear-gradient(15deg, #14191F 0%, #314E4A 100%);
+}
