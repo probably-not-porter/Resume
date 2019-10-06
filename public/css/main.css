@@ -4,6 +4,7 @@ html, body{
 }
 body{
     background: #222;
+    padding-top: 70px;
 }
 #content_container{
     display: inline-block;
