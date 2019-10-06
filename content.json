@@ -30,5 +30,13 @@
         "icon_url" : "./img_content/yaheard.png",
         "git_repo" : "https://github.com/hungphi98/yaheard",
         "live_demo" : ""
+    },
+    {
+        "title" : "Datavis 2",
+        "content" : "The datavis tool is used to visualize collected data from a Postgres Database used for the Icelandic Field Studies program at Earlham College. Built to replace an earlier implimentation using Python and Flask, and optimize use with mobile devices.",
+        "img_url" : "./img_content/datavis-screenshot.png",
+        "icon_url" : "./img_content/yaheard.png",
+        "git_repo" : "https://github.com/probably-not-porter/datavis",
+        "live_demo" : ""
     }
 ]
