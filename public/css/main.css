@@ -3,15 +3,21 @@ html, body{
     height: 100%;
 }
 body{
-    
-    background-image: url("../img_content/bg.gif");
+    -ms-interpolation-mode: nearest-neighbor;
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: -webkit-crisp-edges; 
+    image-rendering: -moz-crisp-edges; 
+    image-rendering: -o-crisp-edges;
+    image-rendering: pixelated; 
+    background-image: url("../img_content/bg.png");
     -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  background-attachment: fixed;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
     padding-top: 70px;
 }
+
 #content_container{
     display: inline-block;
     width: 100%;
@@ -33,7 +39,7 @@ body{
     background-image: linear-gradient(15deg, #14191F 0%, #444 100%);
 }
 .bg-custom2{
-    background-color: #222;
+    background-color: rgba(25,25,25,0.85)
 }
 h2 {
   font-family: 'Pacifico', Helvetica, sans-serif;
