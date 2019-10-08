@@ -7,10 +7,6 @@ var jsonData = jsonFile.readFileSync('content.json');
 console.log('--- BUILDING CONTENT TREE FROM JSON ---')
 console.log(jsonData);
 
-var ghpages = require('gh-pages');
- 
-ghpages.publish('views', function(err) {});
-
 
 const app = express();
 

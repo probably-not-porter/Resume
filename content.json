@@ -38,5 +38,13 @@
         "dates" : "Fall 2019 - Present",
         "git_repo" : "https://github.com/probably-not-porter/datavis",
         "live_demo" : ""
+    },
+    {
+        "title" : "EC Soundcloud",
+        "content" : "This widget was created for the new Earlham College website, which is built in Apostrophe CMS, and uses the soundcloud API to fetch and render data in a professional, podcast-style display, complete with navigations and a web player.",
+        "img_url" : "./img_content/ec-soundcloud.png",
+        "dates" : "Spring 2019 - Present",
+        "git_repo" : "https://github.com/earlhamcollege/ec-soundcloud",
+        "live_demo" : ""
     }
 ]
