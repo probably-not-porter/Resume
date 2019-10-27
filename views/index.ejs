@@ -6,7 +6,7 @@
         <meta charset="utf-8">
         <script src="https://unpkg.com/feather-icons"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/0.14.7/umd/popper.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
         <link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
@@ -64,29 +64,47 @@
                 <div class="card text-white bg-custom2 mb-3">
                     <div class="row no-gutters">
                         <!-- Card image -->
-                        <div class="col-md-4">
-                            <div class="view overlay zoom">
-                                <img class="img-fluid card-img-top" src="<%= content[x].img_url %>" alt="Card image cap">
+                        <% if (content[x].img_url != "") { %>
+                            <div class="col-md-4">
+                                <div class="view overlay zoom">
+                                    <img class="img-fluid card-img-top" src="<%= content[x].img_url %>" alt="Card image cap">
+                                </div>
                             </div>
-                        </div>
+                        <% } %>
 
                         <!-- Card content -->
                         <div class="col-md-8">
                             <div class="card-body">
                                 <!-- Title -->
-                                <h4 class="card-title"><a><%= content[x].title %></a></h4>
+                                <% if (content[x].title != "") { %>
+                                    <h4 class="card-title"><a><%= content[x].title %></a></h4>
+                                <% } %>
+                                <!-- Badge -->
+                                <div style='padding-top: 5px; padding-bottom: 15px;'>
+                                    <% for(y = 0; y < content[x].badges.length; y++) {%>
+                                        <img style="display:inline-block;" alt="<%=x%>-<%=y%>" src="<%=content[x].badges[y]%>" >
+                                    <%}%>
+                                </div>
 
                                 <!-- Text -->
-                                <p class="card-text"><%= content[x].content %></p>
-                                <p class="card-text"><small class="text-muted"> <%= content[x].dates %></small></p>
+                                <% if (content[x].content != "") { %>
+                                    <p class="card-text"><%= content[x].content %></p>
+                                <% } %>
+                                <% if (content[x].dates != "") { %>
+                                    <p class="card-text"><small class="text-muted"> <%= content[x].dates %></small></p>
+                                <% } %>
 
                                 <!-- Button -->
-                                <% if (content[x].git_repo != "") { %>
-                                    <a href="<%= content[x].git_repo %>" class="btn btn-outline-success">Git Repo</a>
+                                <% for(y = 0; y < content[x].buttons.length; y++) {%>
+                                    <a href="<%= content[x].buttons[y] %>" class="btn btn-outline-success">
+                                        <% if (content[x].buttons[y].includes('github.com')) { %>
+                                            Github
+                                        <% }else if(content[x].buttons[y].includes('github.io') || content[x].buttons[y].includes('herokuapp')){ %>
+                                            Live Demo
+                                        <% } %>
+                                    </a>
                                 <% } %>
-                                <% if (content[x].live_demo != "") { %>
-                                    <a href="<%= content[x].live_demo %>" class="btn btn-outline-success">Live Demo</a>
-                                <% } %>
+                                </br>
                             </div>
                         </div>
                     </div>

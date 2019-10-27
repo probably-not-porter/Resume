@@ -1,50 +1,88 @@
 [
     {
+        "title" : "About",
+        "content" : "",
+        "img_url" : "",
+        "dates" : "",
+        "buttons" : [],
+        "badges": []
+    },
+    {
         "title" : "Color Shift",
         "content" : "Color Shift is an android mobile game built in Unity. This was a solo project to practice my UX design as well as C# programming. After some of my previous projects, I wanted to work on something where I could really perfect a UI control system, so that it would be compadible with most Android devices.",
         "img_url" : "./img_content/colorshift.png",
         "dates" : "Summer 2019",
-        "git_repo" : "https://github.com/probably-not-porter/Color-Shift",
-        "live_demo" : ""
+        "buttons" : [
+            "https://github.com/probably-not-porter/Color-Shift"
+        ],
+        "badges": [
+            "https://img.shields.io/github/last-commit/probably-not-porter/Color-Shift",
+            "https://img.shields.io/github/languages/top/probably-not-porter/color-shift"
+        ]
     },
     {
         "title" : "SpellBound",
         "content" : "Spellbound is a co-op platformer game, originally created for CS380. The game is built using the Unity engine with C# as the primary scripting language. All the art and music are original, and created by our team. The live demo is updated frequently.",
         "img_url" : "./img_content/spellbound.png",
         "dates" : "Fall 2018 - Present",
-        "git_repo" : "https://github.com/probably-not-porter/SpellBound",
-        "live_demo" : "https://probably-not-porter.github.io/SpellBound/"
+        "buttons" : [
+            "https://github.com/probably-not-porter/SpellBound",
+            "https://probably-not-porter.github.io/SpellBound/"
+        ],
+        "badges": []
     },
     {
         "title" : "Euclidean Step Sequencer",
         "content" : "This project was created for Project 1 in CS345 : Software Engineering. The sequencer is designed to express 1 to 6 voices, each with many configurable options, including key, octave, wave type, and more. Each voice has a configurable number of pulses, which will be distributed evenly across the selected number of steps, resulting in complex polyrhythms and interesting offbeat patterns.",
         "img_url" : "./img_content/sequencer.png",
         "dates" : "Spring 2019",
-        "git_repo" : "https://github.com/hungphi98/euclidean-sequencer",
-        "live_demo" : "http://euclidean-sequencer.herokuapp.com/"
+        "buttons" : [
+            "https://github.com/hungphi98/euclidean-sequencer",
+            "http://euclidean-sequencer.herokuapp.com/"
+        ],
+        "badges": [
+            "https://img.shields.io/github/last-commit/hungphi98/euclidean-sequencer",
+            "https://img.shields.io/github/languages/top/hungphi98/euclidean-sequencer"
+        ]
     },
     {
         "title" : "YaHeard",
         "content" : "YaHeard is a geotagging, semi-anonymous social network, created in React Native for both Android and iOS. It is meant to be a content driven network, where the context of the post itself is removed from any personal information which might destract from the quality of the content.",
         "img_url" : "./img_content/yaheard2.png",
         "dates" : "Spring 2019",
-        "git_repo" : "https://github.com/hungphi98/yaheard",
-        "live_demo" : ""
+        "buttons" : [
+            "https://github.com/hungphi98/yaheard"
+        ],
+        "badges": [
+            "https://img.shields.io/github/last-commit/hungphi98/yaheard",
+            "https://img.shields.io/github/languages/top/hungphi98/yaheard"
+        ]
     },
     {
         "title" : "Datavis 2",
         "content" : "The datavis tool is used to visualize collected data from a Postgres Database used for the Icelandic Field Studies program at Earlham College. Built to replace an earlier implimentation using Python and Flask, and optimize use with mobile devices.",
         "img_url" : "./img_content/datavis-screenshot.png",
         "dates" : "Fall 2019 - Present",
-        "git_repo" : "https://github.com/probably-not-porter/datavis",
-        "live_demo" : ""
+        "buttons" : [
+            "https://github.com/probably-not-porter/datavis"
+        ],
+        "badges": [
+            "https://img.shields.io/github/last-commit/probably-not-porter/datavis",
+            "https://img.shields.io/github/languages/top/probably-not-porter/datavis"
+        ]
     },
     {
         "title" : "EC Soundcloud",
         "content" : "This widget was created for the new Earlham College website, which is built in Apostrophe CMS, and uses the soundcloud API to fetch and render data in a professional, podcast-style display, complete with navigations and a web player.",
         "img_url" : "./img_content/ec-soundcloud.png",
         "dates" : "Spring 2019 - Present",
-        "git_repo" : "https://github.com/earlhamcollege/ec-soundcloud",
-        "live_demo" : ""
+        "buttons" : [
+            "https://github.com/earlhamcollege/ec-soundcloud"
+        ],
+        "badges": [
+            "https://img.shields.io/npm/v/ec-soundcloud",
+            "https://img.shields.io/github/last-commit/earlhamcollege/ec-soundcloud",
+            "https://img.shields.io/github/languages/top/earlhamcollege/ec-soundcloud"
+        ]
     }
 ]
