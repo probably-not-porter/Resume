@@ -49,11 +49,12 @@
         "img_url" : "./img_content/spellbound.png",
         "dates" : "Fall 2018 - Present",
         "buttons" : [
-            "https://github.com/probably-not-porter/SpellBound",
-            "https://probably-not-porter.github.io/SpellBound/"
+            "https://github.com/spellbound-game/spellbound",
+            "https://spellbound-game.github.io/spellbound-html/"
         ],
         "badges": [
-
+            "https://img.shields.io/github/last-commit/spellbound-game/spellbound",
+            "https://img.shields.io/github/languages/top/spellbound-game/spellbound"
         ],
         "tags": [
             "personal"
