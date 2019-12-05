@@ -1,6 +1,6 @@
 [
     {
-        "title" : "About",
+        "title" : "About Me",
         "content" : "",
         "img_url" : "",
         "dates" : "",
@@ -8,7 +8,8 @@
         "badges": [],
         "tags": [
             "professional",
-            "personal"
+            "personal",
+            "about"
         ]
     },
     {
@@ -24,7 +25,8 @@
             "https://img.shields.io/github/languages/top/probably-not-porter/orbit"
         ],
         "tags": [
-            "personal"
+            "personal",
+            "projects"
         ]
     },
     {
@@ -40,7 +42,8 @@
             "https://img.shields.io/github/languages/top/probably-not-porter/color-shift"
         ],
         "tags": [
-            "personal"
+            "personal",
+            "projects"
         ]
     },
     {
@@ -57,7 +60,8 @@
             "https://img.shields.io/github/languages/top/spellbound-game/spellbound"
         ],
         "tags": [
-            "personal"
+            "personal",
+            "projects"
         ]
     },
     {
@@ -74,7 +78,8 @@
             "https://img.shields.io/github/languages/top/hungphi98/euclidean-sequencer"
         ],
         "tags": [
-            "professional"
+            "professional",
+            "projects"
         ]
     },
     {
@@ -90,7 +95,8 @@
             "https://img.shields.io/github/languages/top/hungphi98/yaheard"
         ],
         "tags": [
-            "professional"
+            "professional",
+            "projects"
         ]
     },
     {
@@ -106,7 +112,8 @@
             "https://img.shields.io/github/languages/top/probably-not-porter/datavis"
         ],
         "tags": [
-            "professional"
+            "professional",
+            "projects"
         ]
     },
     {
@@ -123,7 +130,8 @@
             "https://img.shields.io/github/languages/top/earlhamcollege/ec-soundcloud"
         ],
         "tags": [
-            "professional"
+            "professional",
+            "projects"
         ]
     }
 ]
