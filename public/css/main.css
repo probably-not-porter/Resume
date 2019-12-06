@@ -166,7 +166,7 @@ h2 {
 .social-icons a{
   background-color:#eceeef;
   color:#818a91;
-  font-size:16px;
+  font-size:25px;
   display:inline-block;
   line-height:44px;
   width:44px;
@@ -177,7 +177,7 @@ h2 {
   -webkit-transition:all .2s linear;
   -o-transition:all .2s linear;
   transition:all .2s linear;
-  padding-top: 26%;
+  padding-top: 18%;
 }
 .social-icons a:active,.social-icons a:focus,.social-icons a:hover
 {
@@ -194,6 +194,10 @@ h2 {
 .social-icons a.github:hover
 {
   background-color:black;
+}
+.social-icons a.node:hover
+{
+  background-color:#68a063;
 }
 .social-icons a.instagram:hover
 {

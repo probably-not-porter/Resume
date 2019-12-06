@@ -5,10 +5,11 @@
         <title>Porter Libby</title>
         <meta charset="utf-8">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/0.14.7/umd/popper.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-        <link rel='stylesheet' href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <link rel="stylesheet" id="font-awesome-css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" type="text/css" media="all">
+        
         <link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" type="text/css" href="css/main.css" />
     </head>
@@ -106,11 +107,13 @@
                                 <!-- NAV -->
                                 <% if (content[x].tags.includes('about')){ %>
                                     <div style='width: 100%;'>
+                                        <div style='margin-bottom: 10px; color: rgba(255,255,255,0.5);'>Get in touch with me! (I'm everywhere)</div>
                                         <ul class="social-icons">
-                                            <li><a class="github" href="https://github.com/probably-not-porter'"><i class="fa fa-github"></i></a></li>
-                                            <li><a class="instagram" href="https://www.instagram.com/probably_not_porter/?hl=en"><i class="fa fa-instagram"></i></a></li>
-                                            <li><a class="linkedin" href="https://www.linkedin.com/in/porter-libby-41b292147/"><i class="fa fa-linkedin"></i></a></li>
-                                            <li><a class="resume" href="https://docs.google.com/document/d/1jc7Mi7Lw40W-zh7eJSHUv-NtldQ7mfW1217N2lDLDaA/edit?usp=sharing"><i class="fa fa-file"></i></a></li>   
+                                            <li><a class="github" href="https://github.com/probably-not-porter'"><i class="fab fa-github"></i></a></li>
+                                            <li><a class="node" href="https://www.npmjs.com/~pelibby16'"><i class="fab fa-node-js"></i></a></li>
+                                            <li><a class="instagram" href="https://www.instagram.com/probably_not_porter/?hl=en"><i class="fab fa-instagram"></i></a></li>
+                                            <li><a class="linkedin" href="https://www.linkedin.com/in/porter-libby-41b292147/"><i class="fab fa-linkedin"></i></a></li>
+                                            <li><a class="node" href="#" onclick="location.href='mailto:someone@example.com?Subject=Hello%20again'"><i class="fa fa-envelope"></i></a></li> 
                                         </ul>
                                     </div>
                                 <% } %>
@@ -127,15 +130,6 @@
                     <p class="copyright-text">Copyright &copy; 2019 Porter Libby
                     </p>
                 </div>
-
-                <div class="col-md-4 col-sm-6 col-xs-12">
-                    <ul class="social-icons">
-                        <li><a class="github" href="https://github.com/probably-not-porter'"><i class="fa fa-github"></i></a></li>
-                        <li><a class="instagram" href="https://www.instagram.com/probably_not_porter/?hl=en"><i class="fa fa-instagram"></i></a></li>
-                        <li><a class="linkedin" href="https://www.linkedin.com/in/porter-libby-41b292147/"><i class="fa fa-linkedin"></i></a></li>
-                        <li><a class="resume" href="https://docs.google.com/document/d/1jc7Mi7Lw40W-zh7eJSHUv-NtldQ7mfW1217N2lDLDaA/edit?usp=sharing"><i class="fa fa-file"></i></a></li>    
-                    </ul>
-                </div>
             </div>
         </div>
         <script>
@@ -147,6 +141,19 @@
                 if (filter == undefined){
                     filter = 'about';
                 }
+                if (filter == "about"){
+                    document.title = "About - Porter L";
+                }
+                else if (filter == "personal"){
+                    document.title = "Personal Projects - Porter L";
+                }
+                else if (filter == "professional"){
+                    document.title = "Professional Projects - Porter L";
+                }
+                else if (filter == "blog"){
+                    document.title = "Blog - Porter L";
+                }
+                
                 var c = elem.children; 
                 console.log(filter);
                 for (x=0;x<c.length;x++){
