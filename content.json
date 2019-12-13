@@ -11,6 +11,23 @@
         ]
     },
     {
+        "title" : "Dex",
+        "content" : "A practice project which invloved two different specific technologies I wanted to work with. The first is webscraping and compiling data, the second is using a python library like Flask to create a website and a server. Pokemon provided a nice, medium-sized dataset to practice with; not to big to be quick to process, but large enough to create a cool result.",
+        "img_url" : "./img_content/dex.png",
+        "dates" : "Fall 2019",
+        "buttons" : [
+            "https://github.com/probably-not-porter/dex"
+        ],
+        "badges": [
+            "https://img.shields.io/github/last-commit/probably-not-porter/dex",
+            "https://img.shields.io/github/languages/top/probably-not-porter/dex"
+        ],
+        "tags": [
+            "personal",
+            "projects"
+        ]
+    },
+    {
         "title" : "Orbit",
         "content" : "A simple space physics simlation I wrote in python using the pygame library. This was mostly a practice project, both with rendering things based on physics forumlas, and working with pygame.",
         "img_url" : "./img_content/orbit.png",
