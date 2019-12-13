@@ -28,7 +28,7 @@
     "lodash": "^4.17.15",
     "mixin-deep": "^2.0.1",
     "nodemon": "^1.18.9",
-    "npm": "^6.7.0",
+    "npm": "^6.13.4",
     "serve-favicon": "^2.5.0",
     "set-value": "^3.0.1"
   },
