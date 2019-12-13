@@ -16,7 +16,8 @@
         "img_url" : "./img_content/dex.png",
         "dates" : "Fall 2019",
         "buttons" : [
-            "https://github.com/probably-not-porter/dex"
+            "https://github.com/probably-not-porter/dex",
+            "http://combat-dex.herokuapp.com/"
         ],
         "badges": [
             "https://img.shields.io/github/last-commit/probably-not-porter/dex",
