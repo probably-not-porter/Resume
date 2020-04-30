@@ -96,9 +96,11 @@
                                 <!-- Button -->
                                 <% for(y = 0; y < content[x].buttons.length; y++) {%>
                                     <a href="<%= content[x].buttons[y] %>" class="btn btn-outline-success">
-                                        <% if (content[x].buttons[y].includes('github.com')) { %>
+                                        <% if (content[x].buttons[y].includes('github.com') || content[x].buttons[y].includes('gitlab')) { %>
                                             Github
-                                        <% }else if(content[x].buttons[y].includes('github.io') || content[x].buttons[y].includes('herokuapp')){ %>
+                                        <% }else if (content[x].buttons[y].includes('docs.google')){ %>
+                                            Documentation
+                                        <% }else{ %>
                                             Live Demo
                                         <% } %>
                                     </a>
