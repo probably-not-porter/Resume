@@ -29,6 +29,22 @@
         ]
     },
     {
+        "title" : "EPIC Journey",
+        "content" : "A site requested by the EPIC program at Earlham College to help prospective students explore the options available to them.",
+        "img_url" : "./img_content/epic-journey.PNG",
+        "dates" : "Spring 2020",
+        "buttons" : [
+            "https://gitlab.cluster.earlham.edu/webdev/epic-journey-display",
+            "https://epicjourney.cs.earlham.edu/"
+        ],
+        "badges": [
+        ],
+        "tags": [
+            "professional",
+            "projects"
+        ]
+    },
+    {
         "title" : "Orbit",
         "content" : "A simple space physics simlation I wrote in python using the pygame library. This was mostly a practice project, both with rendering things based on physics forumlas, and working with pygame.",
         "img_url" : "./img_content/orbit.png",
