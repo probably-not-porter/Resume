@@ -91,6 +91,23 @@
         ]
     },
     {
+        "title" : "Composite Edge Machine Learning",
+        "content" : "This was my senior project at Earlham. The project was a study in the effects of single and composite edge detection in feature detection. Written mostly in python, and demonstrated using Jupyter notebooks, the project demonstrated how even simple, user-friendly (reletively speaking) machine learning can be improved in some cases through the proposed pre-processing methods.",
+        "img_url" : "./img_content/senior project.png",
+        "dates" : "August 2019 - May 2020",
+        "buttons" : [
+            "https://github.com/probably-not-porter/Composite-Edge-ML"
+        ],
+        "badges": [
+            "https://img.shields.io/github/last-commit/probably-not-porter/Composite-Edge-ML",
+            "https://img.shields.io/github/languages/top/probably-not-porter/Composite-Edge-ML"
+        ],
+        "tags": [
+            "professional",
+            "projects"
+        ]
+    },
+    {
         "title" : "SpellBound",
         "content" : "Spellbound is a co-op platformer game, originally created for CS380. The game is built using the Unity engine with C# as the primary scripting language. All the art and music are original, and created by our team. This game has evolved beyond a school project, and has given us experience working as a remote team, and developing in cycles. While the game will likely remain unpublished, we all care deeply about it as a personal project, and have learned many lessons from our work.",
         "img_url" : "./img_content/spellbound.png",
