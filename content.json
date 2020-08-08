@@ -149,7 +149,7 @@
         "title" : "Datavis 2",
         "content" : "The datavis tool is used to visualize collected data from a Postgres Database used for the Icelandic Field Studies program at Earlham College. Built to replace an earlier implimentation using Python and Flask, and optimize use with mobile devices.",
         "img_url" : "./img_content/datavis-screenshot.png",
-        "dates" : "Fall 2019 - Present",
+        "dates" : "Fall 2019 - Spring 2020",
         "buttons" : [
             "https://github.com/probably-not-porter/datavis"
         ],
@@ -166,7 +166,7 @@
         "title" : "EC Soundcloud",
         "content" : "This widget was created for the new Earlham College website, which is built in Apostrophe CMS, and uses the soundcloud API to fetch and render data in a professional, podcast-style display, complete with navigations and a web player.",
         "img_url" : "./img_content/ec-soundcloud.png",
-        "dates" : "Spring 2019 - Present",
+        "dates" : "Spring 2019",
         "buttons" : [
             "https://github.com/earlhamcollege/ec-soundcloud"
         ],
