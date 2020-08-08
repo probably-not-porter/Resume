@@ -99,7 +99,7 @@
     {
         "title" : "Solar Polar Clock (Chrome Extension)",
         "content" : "This was a small practice project for using chrome extensions, to create a new 'new tab' page for Google Chrome, which displayed the current time in a creative way using only HTML elements.",
-        "img_url" : "./img_content/solar-polar.png",
+        "img_url" : "./img_content/solar-polar.PNG",
         "dates" : "Fall 2019",
         "buttons" : [
             "https://github.com/probably-not-porter/solar-polar"
