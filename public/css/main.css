@@ -11,11 +11,8 @@ body{
     image-rendering: -moz-crisp-edges; 
     image-rendering: -o-crisp-edges;
     image-rendering: pixelated; 
-    background-image: url("../img_content/bg.jpg");
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+    background-image: url("../img_content/moroccan-flower.png");
+    background-repeat: repeat-y repeat-x;
     background-attachment: fixed;
     padding-top: 70px;
 }
