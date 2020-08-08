@@ -97,6 +97,40 @@
         ]
     },
     {
+        "title" : "Solar Polar Clock (Chrome Extension)",
+        "content" : "This was a small practice project for using chrome extensions, to create a new 'new tab' page for Google Chrome, which displayed the current time in a creative way using only HTML elements.",
+        "img_url" : "./img_content/solar-polar.png",
+        "dates" : "Fall 2019",
+        "buttons" : [
+            "https://github.com/probably-not-porter/solar-polar"
+        ],
+        "badges": [
+            "https://img.shields.io/github/last-commit/probably-not-porter/solar-polar",
+            "https://img.shields.io/github/languages/top/probably-not-porter/solar-polar"
+        ],
+        "tags": [
+            "personal",
+            "projects"
+        ]
+    },
+    {
+        "title" : "Generative Game Sprites",
+        "content" : "This was a small practice project using Processing with python to create generative art. The project includes tons of parameters to create infite combinations of colors and patterns in Galaga-like space ship sprites.",
+        "img_url" : "./img_content/galaga.png",
+        "dates" : "Fall 2019",
+        "buttons" : [
+            "https://github.com/probably-not-porter/galaga-sprites"
+        ],
+        "badges": [
+            "https://img.shields.io/github/last-commit/probably-not-porter/galaga-sprites",
+            "https://img.shields.io/github/languages/top/probably-not-porter/galaga-sprites"
+        ],
+        "tags": [
+            "personal",
+            "projects"
+        ]
+    },
+    {
         "title" : "SpellBound",
         "content" : "Spellbound is a co-op platformer game, originally created for CS380. The game is built using the Unity engine with C# as the primary scripting language. All the art and music are original, and created by our team. This game has evolved beyond a school project, and has given us experience working as a remote team, and developing in cycles. While the game will likely remain unpublished, we all care deeply about it as a personal project, and have learned many lessons from our work.",
         "img_url" : "./img_content/spellbound.png",
