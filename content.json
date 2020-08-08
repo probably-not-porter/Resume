@@ -1,7 +1,7 @@
 [
     {
         "title" : "About Me",
-        "content" : "Hi, I'm Porter. I am a recent graduate of Earlham College. I like to code, innovate, and solve. While I have worked with many tools, environments and languages, I am, first and foremost, a web developer. I like to learn new things, and create innovative and unique solutions.",
+        "content" : "Hi, I'm Porter. I am a recent graduate of Earlham College. While I have worked with many tools, environments and languages, I am, first and foremost, a web developer. I like to learn new things, and create innovative and unique solutions.",
         "img_url" : "",
         "dates" : "",
         "buttons" : [],
@@ -82,7 +82,7 @@
     {
         "title" : "Composite Edge Machine Learning",
         "content" : "This was my senior project at Earlham. The project was a study in the effects of single and composite edge detection in feature detection. Written mostly in python, and demonstrated using Jupyter notebooks, the project demonstrated how even simple, user-friendly (reletively speaking) machine learning can be improved in some cases through the proposed pre-processing methods.",
-        "img_url" : "./img_content/senior-project.png",
+        "img_url" : "./img_content/senior-project.jpg",
         "dates" : "August 2019 - May 2020",
         "buttons" : [
             "https://github.com/probably-not-porter/Composite-Edge-ML"
