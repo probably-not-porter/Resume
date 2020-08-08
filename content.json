@@ -82,7 +82,7 @@
     {
         "title" : "Composite Edge Machine Learning",
         "content" : "This was my senior project at Earlham. The project was a study in the effects of single and composite edge detection in feature detection. Written mostly in python, and demonstrated using Jupyter notebooks, the project demonstrated how even simple, user-friendly (reletively speaking) machine learning can be improved in some cases through the proposed pre-processing methods.",
-        "img_url" : "./img_content/senior project.png",
+        "img_url" : "./img_content/senior-project.png",
         "dates" : "August 2019 - May 2020",
         "buttons" : [
             "https://github.com/probably-not-porter/Composite-Edge-ML"
