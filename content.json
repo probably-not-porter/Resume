@@ -1,18 +1,7 @@
 [
     {
         "title" : "About Me",
-        "content" : "Hi, I'm Porter. I am a recent graduate of Earlham College. I like to code, innovate, and solve. ",
-        "img_url" : "",
-        "dates" : "",
-        "buttons" : [],
-        "badges": [],
-        "tags": [
-            "about"
-        ]
-    },
-    {
-        "title" : "",
-        "content" : "Front-end web developer, skilled at validating, debugging, and correcting code with experience working on development teams; motivated to create customer-focused, high-quality and effective website layouts. Currently looking to join an organization with an emphasis on teamwork and collaboration. ",
+        "content" : "Hi, I'm Porter. I am a recent graduate of Earlham College. I like to code, innovate, and solve. While I have worked with many tools, environments and languages, I am, first and foremost, a web developer. I like to learn new things, and create innovative and unique solutions.",
         "img_url" : "",
         "dates" : "",
         "buttons" : [],
