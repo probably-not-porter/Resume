@@ -92,17 +92,13 @@
     },
     {
         "title" : "SpellBound",
-        "content" : "Spellbound is a co-op platformer game, originally created for CS380. The game is built using the Unity engine with C# as the primary scripting language. All the art and music are original, and created by our team. The live demo is updated frequently.",
+        "content" : "Spellbound is a co-op platformer game, originally created for CS380. The game is built using the Unity engine with C# as the primary scripting language. All the art and music are original, and created by our team. This game has evolved beyond a school project, and has given us experience working as a remote team, and developing in cycles. While the game will likely remain unpublished, we all care deeply about it as a personal project, and have learned many lessons from our work.",
         "img_url" : "./img_content/spellbound.png",
         "dates" : "Fall 2018 - Present",
         "buttons" : [
-            "https://github.com/spellbound-game/spellbound",
             "https://spellbound-game.github.io/spellbound-html/"
         ],
-        "badges": [
-            "https://img.shields.io/github/last-commit/spellbound-game/spellbound",
-            "https://img.shields.io/github/languages/top/spellbound-game/spellbound"
-        ],
+        "badges": [],
         "tags": [
             "personal",
             "projects"
