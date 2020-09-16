@@ -12,11 +12,10 @@
     
             <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
             <link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
-    
             <link rel="stylesheet" type="text/css" href="css/main2.css" />
         </head>
         <body onload="start()" style='opacity: 0'> 
-            <div style='top: 0px; left: 0px;width: 100vw; height: 100vh; position: absolute; overflow: hidden;'>
+            <div style='top: 0px; left: 0px;width: 100%; height: 100vh; position: absolute; overflow: hidden;'>
                 <div class="cube"></div>
                 <div class="cube"></div>
                 <div class="cube"></div>
@@ -24,26 +23,47 @@
                 <div class="cube"></div>
                 <div class="cube"></div>
             </div>
-            <div style='top: 0px; left: 0px;width: 100vw; height: 100vh; position: absolute; overflow: hidden;padding-top: 10vh; padding-left: 10vw;'>
+            <div style='top: 0px; left: 0px;width: 100%; height: 100vh; position: absolute; padding-top: 10vh; padding-left: 10vw;'>
                 
-                <h1 onclick="swap(1)" >Porter Libby</h1>
-                <h3>Web Developer</h3>
+                <h1 onclick="swap(1);fadeProjectsO()" >Porter Libby</h1>
+                <h3>Developer</h3>
                 <div id='slide1'>
                     <span onclick="swap(2)" class="link">About</span><br>
-                    <span onclick="swap(3)" class="link">Projects</span><br>
+                    <span onclick="swap(3);fadeProjectsI()" class="link">Projects</span><br>
                     <span onclick="swap(4)" class="link">Contact</span>
                 </div>
                 <div id='slide2'>
-                    <h2>About</h2>
+                    <h2><i onclick="swap(1)" class="back fas fa-arrow-circle-left"></i> About</h2>
                     <p1>here is some information about me here is some information about me here is some information about me here is some information about me here is some information about me here is some information about me here is some information about me here is some information about me here is some information about me</p1>
                 </div>
-                <div id='slide3'>
-                    <h2>Projects</h2>
-
+                <div id='slide3' style='width: 80%'>
+                    <h2><i onclick="swap(1);fadeProjectsO()" class="back fas fa-arrow-circle-left"></i> Projects</h2>
+                    <div class='projects'>
+                        <div class='project'>
+                            <h4>Datavis</h4>
+                        </div>
+                        <div class='project'>
+                            <h4>Spellbound</h4>
+                        </div>
+                        <div class='project'>
+                            <h4>Solar Polar Clock</h4>
+                        </div>
+                        <div class='project'>
+                            <h4>Composite Edge Machine Learning</h4>
+                        </div>
+                        <div class='project'>
+                            <h4>Dex</h4>
+                        </div>
+                        <div class='project'>
+                            
+                        </div>
+                    </div>
                 </div>
                 <div id='slide4'>
-                    <h2>Contact</h2>
+                    <h2><i onclick="swap(1)" class="back fas fa-arrow-circle-left"></i> Contact</h2>
                     <p1>Here is some information about contacting me Here is some information about contacting me Here is some information about contacting meHere is some information about contacting me</p1>
+                    <br>
+                    <p1>porter.libby@hotmail.com</p1>
                     <br>
                     <a style='color: #f58300; cursor: pointer;margin-top:20px; margin-bottom: 20px;'>Download Resume (pdf)</a>
                     <br><br>
@@ -51,8 +71,8 @@
                         
                         <ul class="social-icons">
                             <li><a href="#"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+                            <li><a href="#"><i class="fab fa-node-js" aria-hidden="true"></i></a></li>
                             <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-                            <li><a href="#"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
                         </ul>
                     </div>
                 </div>
@@ -79,6 +99,9 @@
                     }
                 }
                 function start(){
+                    $(".project").each(function(index) {
+                        $(this).delay(0).fadeOut(0);
+                    });
                     $("body").animate({
                         opacity: 1
                     }, 400);
@@ -115,6 +138,18 @@
                         }, 200);
                      }, 200);
                     
+                }
+                function fadeProjectsI(){
+                    console.log('project fade')
+                    $(".project").each(function(index) {
+                        $(this).delay(150*index).fadeIn(300);
+                    });
+                }
+                function fadeProjectsO(){
+                    console.log('project fade')
+                    $(".project").each(function(index) {
+                        $(this).delay(200*index).fadeOut(300);
+                    });
                 }
             </script>
         </body>

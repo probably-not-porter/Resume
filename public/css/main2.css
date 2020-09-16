@@ -21,10 +21,13 @@ h1{
     cursor: pointer;
 }
 h3{
-    padding-bottom: 20px;
+    padding-bottom: 40px;
 }
 h2{
     color:rgba(255,255,255,0.6);
+}
+h4{
+    color: rgb(190, 124, 23);
 }
 p1{
     max-width: 500px;
@@ -40,9 +43,10 @@ p1{
     cursor: pointer;
 }
 .link:hover{
-    margin-left: 30px;
+    padding-left: 20px;
     transition-duration: 100ms;
     border-bottom: 1px solid rgb(190, 124, 23);
+    text-shadow: 0 0 10px rgb(190, 124, 23);
 }
 
 .social-container {
@@ -173,3 +177,37 @@ p1{
       opacity: 0;
     }
   }
+
+.back{
+    color: rgba(190, 124, 23, .7);
+    margin-right: 20px;
+    cursor: pointer;
+}
+.back:hover{
+    color: rgba(190, 124, 23, 1);
+    text-shadow: 0 0 10px rgb(190, 124, 23);
+}
+
+.projects{
+    width: 80vw;
+}
+.project{
+    display: inline-block;
+    background: rgba(255,255,255,0.1);
+    width: 400px;
+    height: 250px;
+    max-width: 80%;
+    margin:20px;
+    padding:20px;
+    position: relative;
+    cursor: pointer;
+}
+.project *{
+    float: left;
+    width: 100%;
+    text-align: center;
+    
+}
+.project:hover{
+    border: 1px solid white;
+}
