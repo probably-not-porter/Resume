@@ -195,6 +195,8 @@ p1{
     text-shadow: 0 0 10px rgb(190, 124, 23);
 }
 
+/* PROJECTS */
+
 .projects{
     width: 80vw;
 }
@@ -218,6 +220,8 @@ p1{
 .project:hover{
     border: 1px solid white;
 }
+
+/* CONTACT */
 .email{
   color: #f58300; 
   cursor: pointer;
@@ -254,3 +258,38 @@ p1{
 .resume:active span {display:none}
 .resume:hover:before {content:"Download (70kb)"}
 .resume:active:before {content: "Downloaded!"}
+
+
+/* ABOUT */
+.about{
+  display: inline-block;
+  width: 80vw;
+  margin-bottom: 100px;
+}
+.about-text{
+  width: 49%;
+  display: inline-block;
+  float: left;
+}
+.about-tools{
+  width: 24%;
+  display: inline-block;
+  text-align: center;
+  float: left;
+}
+.devicon{
+  width: 100px;
+  height: 100px;
+  filter: invert(5);
+}
+.devicon:hover{
+  filter: invert(10);
+}
+.devicon path{
+  fill: #fff;
+}
+p2{
+  color: white;
+  font-size: 20px;
+  line-height: 1.5em;
+}
