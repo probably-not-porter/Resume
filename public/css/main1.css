@@ -1,0 +1,48 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+
+@font-face {
+    font-family: Arctic;
+    src: url(../fonts/Arctic.otf);
+}
+
+html{
+    width: 100%;
+    height: 100%;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: #8EC5FC;
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);       
+    font-family: Arctic;
+    overflow:hidden;
+}
+h1{
+    font-family: Arctic;
+    width: 100%;
+    text-align: center;
+    margin-top: 10vh;
+}
+h2{
+    font-family: Arctic;
+    width: 100%;
+    text-align: center;
+    margin-top: 10vh;
+    margin-bottom: 20vh
+}
+h2 span{
+    padding-left:50px;
+    padding-right:50px;
+}
+#nav{
+    
+    text-align: center;
+    left: 50%;
+    font-size:20px;
+    padding-top: 20px;
+}
+.sm-link{
+    margin-left: 20px;
+    margin-right: 20px;
+    cursor: pointer;
+}
