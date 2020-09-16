@@ -1,5 +1,5 @@
 {
-  "name": "sqr-seq",
+  "name": "portfolio",
   "version": "1.0.0",
   "description": "",
   "engines": {
@@ -11,18 +11,14 @@
     "start": "node index.js",
     "deploy": "gh-pages -d /"
   },
-  "keywords": [
-    "midi",
-    "sequencer"
-  ],
+  "keywords": [],
   "author": "porter libby",
   "license": "ISC",
   "dependencies": {
-    "ejs": "^2.6.1",
-    "eslint-utils": "^1.4.2",
+    "ejs": "^3.1.5",
     "express": "^4.16.4",
-    "feather-icons": "^4.21.0",
     "gh-pages": "^2.0.1",
+    "html": "^1.0.0",
     "install": "^0.12.2",
     "jsonfile": "^5.0.0",
     "lodash": "^4.17.15",

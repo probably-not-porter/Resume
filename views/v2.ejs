@@ -1,0 +1,122 @@
+<DOCTYPE html>
+    <html lang="en" dir="ltr">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <head>
+            <title>Porter Libby</title>
+            <meta charset="utf-8">
+    
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    
+            <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+            <link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+    
+            <link rel="stylesheet" type="text/css" href="css/main2.css" />
+        </head>
+        <body onload="start()" style='opacity: 0'> 
+            <div style='top: 0px; left: 0px;width: 100vw; height: 100vh; position: absolute; overflow: hidden;'>
+                <div class="cube"></div>
+                <div class="cube"></div>
+                <div class="cube"></div>
+                <div class="cube"></div>
+                <div class="cube"></div>
+                <div class="cube"></div>
+            </div>
+            <div style='top: 0px; left: 0px;width: 100vw; height: 100vh; position: absolute; overflow: hidden;padding-top: 10vh; padding-left: 10vw;'>
+                
+                <h1 onclick="swap(1)" >Porter Libby</h1>
+                <h3>Web Developer</h3>
+                <div id='slide1'>
+                    <span onclick="swap(2)" class="link">About</span><br>
+                    <span onclick="swap(3)" class="link">Projects</span><br>
+                    <span onclick="swap(4)" class="link">Contact</span>
+                </div>
+                <div id='slide2'>
+                    <h2>About</h2>
+                    <p1>here is some information about me here is some information about me here is some information about me here is some information about me here is some information about me here is some information about me here is some information about me here is some information about me here is some information about me</p1>
+                </div>
+                <div id='slide3'>
+                    <h2>Projects</h2>
+
+                </div>
+                <div id='slide4'>
+                    <h2>Contact</h2>
+                    <p1>Here is some information about contacting me Here is some information about contacting me Here is some information about contacting meHere is some information about contacting me</p1>
+                    <br>
+                    <a style='color: #f58300; cursor: pointer;margin-top:20px; margin-bottom: 20px;'>Download Resume (pdf)</a>
+                    <br><br>
+                    <div class="social-container">
+                        
+                        <ul class="social-icons">
+                            <li><a href="#"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+                            <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                            <li><a href="#"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <script>
+                function swap(n){
+                    var slides = [
+                        document.getElementById("slide1"), 
+                        document.getElementById("slide2"), 
+                        document.getElementById("slide3"), 
+                        document.getElementById("slide4")
+                    ];
+                    for (x=1; x<5; x++){
+                        if (x == n){
+                            if (slides[x-1].style.display == 'none'){
+                                fadeI(slides[x-1].id);
+                            }
+                        }
+                        else{
+                            if (slides[x-1].style.display != 'none'){
+                                fadeO(slides[x-1].id);
+                            }
+                        }
+                    }
+                }
+                function start(){
+                    $("body").animate({
+                        opacity: 1
+                    }, 400);
+                    $("#slide2").animate({
+                        right: '200px',
+                        opacity: 0,
+                        show: 'toggle',
+                    }, 0);
+                    $("#slide3").animate({
+                        right: '200px',
+                        opacity: 0,
+                        show: 'toggle',
+                    }, 0);
+                    $("#slide4").animate({
+                        right: '200px',
+                        opacity: 0,
+                        show: 'toggle',
+                    }, 0);
+                }
+                function fadeO(elemName){
+                    $("#" + elemName).animate({
+                        right: '200px',
+                        opacity: 0,
+                        show: 'toggle'
+                    }, 200);
+                    
+                }
+                function fadeI(elemName){
+                    setTimeout(function(){ 
+                        $("#" + elemName).animate({
+                            right: '200px',
+                            opacity: 1,
+                            show: 'toggle'
+                        }, 200);
+                     }, 200);
+                    
+                }
+            </script>
+        </body>
+        
+    </html>
