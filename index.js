@@ -4,8 +4,13 @@ console.log("==================================\n");
 
 const express = require('express');
 const app = express();
+var path = require('path');
+var favicon = require('serve-favicon');
 
 app.set('view engine', 'ejs');
+
+app.use(favicon(path.join(__dirname, 'public/images', 'favicon.png')));
+
 app.get('/', function(req, res) {
     res.render("index",{
     })
