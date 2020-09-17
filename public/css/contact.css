@@ -1,0 +1,90 @@
+/* CONTACT */
+.email{
+    color: #f58300; 
+    cursor: pointer;
+    margin-top:20px; 
+    margin-bottom: 20px;
+    font-size: 20px;
+    padding: 5px;
+}
+.email:hover{
+    color: white;
+}
+.email:hover span {display:none}
+.email:active span {display:none}
+.email:hover:before {content:"Copy to clipboard"}
+.email:active:before {content: "Copied!"}
+.email:active{
+    color: white;   
+}
+.resume{
+    color: #f58300; 
+    cursor: pointer;
+    margin-top:20px; 
+    margin-bottom: 20px;
+    font-size: 20px;
+    padding: 5px;
+}
+.resume:hover{
+    color: white;
+}
+.resume:active{
+    color: white;
+}
+.resume:hover span {display:none}
+.resume:active span {display:none}
+.resume:hover:before {content:"Download (70kb)"}
+.resume:active:before {content: "Downloaded!"}
+  
+.social-container {
+    position: relative;
+    left: -20px;
+}
+.social-icons {
+    padding: 0;
+    list-style: none;
+    margin: 1em;
+}
+.social-icons li {
+    display: inline-block;
+    margin: 0.15em;
+    position: relative;
+    font-size: 1.2em;
+  
+}
+.social-icons i {
+    color: #fff;
+    position: absolute;
+    top: 21px;
+    left: 21px;
+    transition: all 265ms ease-out;
+}
+.social-icons a {
+    display: inline-block;
+}
+.social-icons a:before {
+    transform: scale(1);
+    -ms-transform: scale(1);
+    -webkit-transform: scale(1);
+    content: " ";
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    display: block;
+    background: linear-gradient(45deg, #f58300, #8f5100);
+    transition: all 265ms ease-out;
+}
+.social-icons a:hover:before {
+    transform: scale(0);
+    transition: all 265ms ease-in;
+}
+.social-icons a:hover i {
+    transform: scale(2.2);
+    -ms-transform: scale(2.2);
+    -webkit-transform: scale(2.2);
+    color:  #f58300;
+    background: -webkit-linear-gradient(45deg, #f58300, #8f5100);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: all 265ms ease-in;
+}

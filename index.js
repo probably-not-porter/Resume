@@ -15,10 +15,6 @@ app.get('/', function(req, res) {
     res.render("index",{
     })
 });
-app.get('/v1', function(req, res) {
-    res.render("v1",{
-    })
-});
 app.use(express.static(__dirname + '/public'));
 
 
