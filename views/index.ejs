@@ -16,7 +16,7 @@
             <link rel="stylesheet" type="text/css" href="css/cubes.css" />
         </head>
         <body onload="start()" style='opacity: 0'> 
-            <div style='top: 0px; left: 0px;width: 100%; height: 100vh; position: absolute; overflow: hidden;'>
+            <div class='background-container'>
                 <div class="cube"></div>
                 <div class="cube"></div>
                 <div class="cube"></div>
@@ -24,8 +24,7 @@
                 <div class="cube"></div>
                 <div class="cube"></div>
             </div>
-            <div style='top: 0px; left: 0px;width: 100%; height: 100vh; position: absolute; padding-top: 10vh; padding-left: 10vw;'>
-                
+            <div id='content-container'>
                 <h1 onclick="swap(1);fadeProjectsO()" >Porter Libby</h1>
                 <h3>Developer</h3>
                 <div id='slide1'>
@@ -150,92 +149,7 @@
                     <a href="./PorterLibby_Resume.pdf" download><p1  class='resume'><span>Resume PDF</span></p1></a>
                 </div>
             </div>
-            <script>
-                function swap(n){
-                    var slides = [
-                        document.getElementById("slide1"), 
-                        document.getElementById("slide2"), 
-                        document.getElementById("slide3"), 
-                        document.getElementById("slide4")
-                    ];
-                    for (x=1; x<5; x++){
-                        if (x == n){
-                            if (slides[x-1].style.display == 'none'){
-                                fadeI(slides[x-1].id);
-                            }
-                        }
-                        else{
-                            if (slides[x-1].style.display != 'none'){
-                                fadeO(slides[x-1].id);
-                            }
-                        }
-                    }
-                }
-                function start(){
-                    $(".project").each(function(index) {
-                        $(this).delay(0).fadeOut(0);
-                    });
-                    $("body").animate({
-                        opacity: 1
-                    }, 400);
-                    $("#slide2").animate({
-                        right: '200px',
-                        opacity: 0,
-                        show: 'toggle',
-                    }, 0);
-                    $("#slide3").animate({
-                        right: '200px',
-                        opacity: 0,
-                        show: 'toggle',
-                    }, 0);
-                    $("#slide4").animate({
-                        right: '200px',
-                        opacity: 0,
-                        show: 'toggle',
-                    }, 0);
-                }
-                function fadeO(elemName){
-                    $("#" + elemName).animate({
-                        right: '200px',
-                        opacity: 0,
-                        show: 'toggle'
-                    }, 200);
-                    
-                }
-                function fadeI(elemName){
-                    setTimeout(function(){ 
-                        $("#" + elemName).animate({
-                            right: '200px',
-                            opacity: 1,
-                            show: 'toggle'
-                        }, 200);
-                     }, 200);
-                    
-                }
-                function fadeProjectsI(){
-                    console.log('project fade')
-                    setTimeout(function(){ 
-                        $(".project").each(function(index) {
-                            $(this).delay(150*index).fadeIn(300);
-                        });
-                    }, 400);
-                }
-                function fadeProjectsO(){
-                    console.log('project fade')
-                    $(".project").each(function(index) {
-                        $(this).delay(200*index).fadeOut(300);
-                    });
-                }
-
-                function copyToClipboard(text) {
-                    var dummy = document.createElement("input");
-                    document.body.appendChild(dummy);
-                    dummy.setAttribute('value', text);
-                    dummy.select();
-                    document.execCommand('copy');
-                    document.body.removeChild(dummy);
-                }
-            </script>
+            <script src="./js/main.js"></script>
         </body>
         
     </html>
