@@ -11,14 +11,31 @@
     margin:20px;
     padding:20px;
     position: relative;
-    cursor: pointer;
+    overflow: hidden;
+    transition-duration: 100ms;
 }
 .project *{
     float: left;
     width: 100%;
     text-align: center;
+    transition-duration: 100ms;
     
 }
-.project:hover{
-    border: 1px solid white;
+.project h4{
+    z-index:2;
+    position: relative;
+    cursor: pointer;
+}
+.project h4:hover{
+    text-decoration: underline;
+}
+.project img{
+    opacity:0.2;
+    position: absolute;
+    z-index:1;
+    top:0;
+    left:0;
+}
+.project:hover img{
+    opacity:1;
 }
