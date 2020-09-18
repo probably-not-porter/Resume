@@ -77,6 +77,20 @@
                     <h2><i onclick="swap(1);fadeProjectsO()" class="back fas fa-arrow-circle-left"></i> Projects</h2>
                     <div class='projects'>
                         <div class='project'>
+                            <h4>Spellbound</h4>
+                            <img src='./images/spellbound.png'>
+                            <p1>
+                                <span>Unity2D</span><span>C#</span><span>HTML / CSS / JS</span><span>NodeJS</span>
+                            </p1>
+                        </div>
+                        <div class='project'>
+                            <h4>Solar Polar Clock</h4>
+                            <img src='./images/solar-polar.png'>
+                            <p1>
+                                <span>HTML / CSS / JS</span><span>Chrome Extension</span>
+                            </p1>
+                        </div>
+                        <div class='project'>
                             <h4>Datavis</h4>
                             <img src='./images/datavis-screenshot.png'>
                             <p1>
@@ -84,19 +98,25 @@
                             </p1>
                         </div>
                         <div class='project'>
-                            <h4>Spellbound</h4>
-                        </div>
-                        <div class='project'>
-                            <h4>Solar Polar Clock</h4>
-                        </div>
-                        <div class='project'>
                             <h4>Composite Edge Machine Learning</h4>
+                            <img src='./images/senior-project.jpg'>
+                            <p1>
+                                <span>Python</span><span>Jupyter</span><span>Fast.ai</span>
+                            </p1>
                         </div>
                         <div class='project'>
                             <h4>Dex</h4>
+                            <img src='./images/dex.png'>
+                            <p1>
+                                <span>Python</span><span>Flask</span><span>HTML / CSS / JS</span>
+                            </p1>
                         </div>
                         <div class='project'>
-                            
+                            <h4>Orbit</h4>
+                            <img src='./images/orbit.png'>
+                            <p1>
+                                <span>Python</span><span>PyGame</span>
+                            </p1>
                         </div>
                     </div>
                 </div>
@@ -182,9 +202,11 @@
                 }
                 function fadeProjectsI(){
                     console.log('project fade')
-                    $(".project").each(function(index) {
-                        $(this).delay(150*index).fadeIn(300);
-                    });
+                    setTimeout(function(){ 
+                        $(".project").each(function(index) {
+                            $(this).delay(150*index).fadeIn(300);
+                        });
+                    }, 400);
                 }
                 function fadeProjectsO(){
                     console.log('project fade')
