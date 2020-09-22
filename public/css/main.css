@@ -30,11 +30,13 @@ body{
     padding-top: 10vh; 
     padding-left: 10vw;
 }
-#background-container{
+.background-container{
     top: 0px; 
     left: 0px;
-    width: 100%; 
+    width: 100vw; 
     height: 100vh; 
+    margin: 0;
+    padding: 0;
     position: absolute; 
     overflow: hidden;
 }
