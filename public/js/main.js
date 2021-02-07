@@ -7,9 +7,10 @@ function swap(n)
         document.getElementById("slide1"), 
         document.getElementById("slide2"), 
         document.getElementById("slide3"), 
-        document.getElementById("slide4")
+        document.getElementById("slide4"),
+        document.getElementById("slide5")
     ];
-    for (x=1; x<5; x++)
+    for (x=1; x<6; x++)
     {
         if (x == n)
         {
@@ -30,9 +31,6 @@ function swap(n)
 
 function start()
 {
-    $(".project").each(function(index) {
-        $(this).delay(0).fadeOut(0);
-    });
 
     $("body").animate({
         opacity: 1
@@ -51,6 +49,12 @@ function start()
     }, 0);
 
     $("#slide4").animate({
+        right: '200px',
+        opacity: 0,
+        show: 'toggle',
+    }, 0);
+
+    $("#slide5").animate({
         right: '200px',
         opacity: 0,
         show: 'toggle',
@@ -78,22 +82,6 @@ function fadeI(elemName)
      }, 200);
 }
 
-function fadeProjectsI()
-{
-    setTimeout(function(){ 
-        $(".project").each(function(index) {
-            $(this).delay(150*index).fadeIn(300);
-        });
-    }, 400);
-}
-
-function fadeProjectsO()
-{
-    $(".project").each(function(index) {
-        $(this).delay(200*index).fadeOut(300);
-    });
-}
-
 function copyToClipboard(text)
 {
     var dummy = document.createElement("input");
@@ -103,3 +91,5 @@ function copyToClipboard(text)
     document.execCommand('copy');
     document.body.removeChild(dummy);
 }
+
+//$(document).ready(function() { swap(1) });

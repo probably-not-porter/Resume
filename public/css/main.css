@@ -96,3 +96,12 @@ p2{
     color: rgba(190, 124, 23, 1);
     text-shadow: 0 0 10px rgb(190, 124, 23);
 }
+
+#footer{
+    color: rgba(255,255,255,0.4);
+    font-size: 16px;
+    position: absolute;
+    z-index: 1000;
+    bottom: 10px;
+    right: 20px;
+}

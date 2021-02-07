@@ -25,12 +25,13 @@
                 <div class="cube"></div>
             </div>
             <div id='content-container'>
-                <h1 onclick="swap(1);fadeProjectsO()" >Porter Libby</h1>
+                <h1 onclick="swap(1)" >Porter Libby</h1>
                 <h3>Developer</h3>
                 <div id='slide1'>
                     <span onclick="swap(2)" class="link">About</span><br>
-                    <span onclick="swap(3);fadeProjectsI()" class="link">Projects</span><br>
-                    <span onclick="swap(4)" class="link">Contact</span>
+                    <span onclick="swap(3)" class="link">Personal Projects</span><br>
+                    <span onclick="swap(4)" class="link">Professional Projects</span><br>
+                    <span onclick="swap(5)" class="link">Contact</span>
                 </div>
                 <div id='slide2'>
                     <h2><i onclick="swap(1)" class="back fas fa-arrow-circle-left"></i> About</h2>
@@ -73,8 +74,8 @@
                     </div>
                 </div>
                 <div id='slide3' style='width: 80%'>
-                    <h2><i onclick="swap(1);fadeProjectsO()" class="back fas fa-arrow-circle-left"></i> Projects</h2>
-                    <div class='projects'>
+                    <h2><i onclick="swap(1)" class="back fas fa-arrow-circle-left"></i>Personal and Academic Projects</h2>
+                    <div class='projects1'>
                         <div class='project'>
                             <a href="https://spellbound-game.github.io/spellbound-html/">
                                 <h4>Spellbound</h4>
@@ -131,9 +132,24 @@
                         </div>
                     </div>
                 </div>
-                <div id='slide4'>
+                <div id='slide4' style='width: 80%'>
+                    <h2><i onclick="swap(1);" class="back fas fa-arrow-circle-left"></i>Professional Projects</h2>
+                    <div class='projects2'>
+                        <div class='project'>
+                            <a href="https://pegoworks.com/index.html">
+                                <h4>PegO Works</h4>
+                            </a>
+                            <img src='./images/pegoworks.jpg'>
+                            <p1>
+                                <span>SEO</span><span>iPage</span><span>HTML / CSS / JS</span>
+                            </p1>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div id='slide5'>
                     <h2><i onclick="swap(1)" class="back fas fa-arrow-circle-left"></i> Contact</h2>
-                    <p1>I am seeking opportunities to collaborate and work together with people on cool, innovative projects. I take pride in making efficient and effective solutions, and I want to apply my experience and knowledge in a way that reflects this. Feel free to reach out to me via email, or through any of the other platforms below.</p1>
+                    <p1>I am seeking opportunities to collaborate and work together with people on unique, innovative projects. I take pride in making efficient and effective solutions, and I want to apply my experience and knowledge in a way that reflects this. Feel free to reach out to me via email, or through any of the other platforms below.</p1>
                     <br>
                     
                     <br>
@@ -150,6 +166,9 @@
                 </div>
             </div>
             <script src="./js/main.js"></script>
+
+
+            <span id='footer'>2021 © Porter Libby</span>
         </body>
         
     </html>
