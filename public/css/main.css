@@ -19,6 +19,7 @@ body{
     height: 100vh;
     background-color: black;
     font-family: 'Roboto', sans-serif;
+    overflow-x:hidden;
 }
 /* CONTAINERS */
 #content-container{
@@ -100,8 +101,59 @@ p2{
 #footer{
     color: rgba(255,255,255,0.4);
     font-size: 16px;
-    position: absolute;
+    position: fixed;
     z-index: 1000;
     bottom: 10px;
     right: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.reviews{
+    width: 95%;
+    margin-top: 100px;
+    margin-bottom:100px;
+}
+.reviews h2{
+    text-align: center;
+    border-bottom: 1px solid rgba(190, 124, 23, 1);
+    margin-bottom:20px;
+    padding-bottom:20px;
+}
+.review{
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 40px;
+    width: 49.5%;
+    display:inline-block;
+}
+.review-text{
+    color: white;
+    font-size: 14px;
+    line-height: 1.5rem;
+    font-style:italic;
+    padding-left: 20px;
+    text-align: justify;
+    padding-bottom: 20px;
+}
+.review-signature{
+    color:rgba(190, 124, 23, 1);
+    padding-left: 30px;
+}
+
+@media only screen and (max-width: 1000px) {
+    .review{
+        margin-left: 20px;
+        margin-right: 20px;
+        width: 100%;
+    }
 }
